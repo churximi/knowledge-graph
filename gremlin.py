@@ -22,8 +22,8 @@ class local_dse:
         self.use_schema = True  # 选择是否加载schema
         self.use_data = True  # 选择是否加载数据
         self.graph_name = "medicine"
-        self.schema_path = "0412/schema.groovy"  # schema
-        self.data_path = "0412/load.groovy"  # data
+        self.schema_path = "data/schema.groovy"  # schema
+        self.data_path = "data/load.groovy"  # data
         self.address = "127.0.0.1"
         self.dse_path = os.path.join(os.environ['HOME'], "dse")  # dse路径
         self.graphloader = os.path.join(self.dse_path, "dse-graph-loader/graphloader")  # graph-loader路径
