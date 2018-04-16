@@ -21,8 +21,8 @@ class remote_dse:
         self.use_schema = True  # 选择是否加载schema
         self.use_data = True  # 选择是否加载数据
         self.graph_name = "medicine_03"
-        self.schema_path = "0412/schema.groovy"
-        self.data_path = "0412/load.groovy"
+        self.schema_path = "data/schema.groovy"
+        self.data_path = "data/load.groovy"
         self.address = "192.168.2.4"
         self.dse_path = os.path.join(os.environ['HOME'], "dse")  # dse路径
         self.graphloader = os.path.join(self.dse_path, "dse-graph-loader/graphloader")  # graph-loader路径

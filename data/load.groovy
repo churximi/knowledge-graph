@@ -1,7 +1,7 @@
 // DATA INPUT
 // 更新时间：2018年04月12日13:51:02
 
-inputfiledir = '0412'
+inputfiledir = 'data'
 
 drugs = inputfiledir+'/药物节点'
 manufacturers = inputfiledir+'/生产厂商'
