@@ -11,15 +11,19 @@ avoids = inputfiledir+'/禁忌'
 approval_nums = inputfiledir+'/批准文号'
 dispensatories = inputfiledir+'/药品说明书'
 drug_disp = inputfiledir+'/药物_说明书'
+documents = inputfiledir+'/相关文献节点'
+drug_doc = inputfiledir+'/药物_相关文献'
 
 f1 = File.directory(drugs).delimiter('|').header('name','drug_category')
 f2 = File.directory(manufacturers).delimiter('|').header('name')
 f3 = File.directory(components).delimiter('|').header('aname','bname')
 f4 = File.directory(diseases).delimiter('|').header('aname','bname')
 f5 = File.directory(avoids).delimiter('|').header('aname','bname')
-f6 = File.directory(approval_nums).delimiter('|').header('aname','bname', 'p_approval_number')
-f7 = File.directory(dispensatories).delimiter('|').header("name", "p_approval_number", "p_component", "character", "indication", "p_manufacturer", "main_cure", "effect_type", "untoward_reaction", "taboo", "standard", "product_name", "usage", "notes", "torage", "drug_interactions", "pharmacology", "overdose", "warning", "for_olds", "for_children", "dosage_form", "validity", "specification", "for_pregnant", "revision_date", "pharmacokinetics", "packaging", "URL")
+f6 = File.directory(approval_nums).delimiter('|').header('aname','bname', 'approval_number')
+f7 = File.directory(dispensatories).delimiter('|').header("name", "approval_number", "component", "character", "indication", "manufacturer", "main_cure", "effect_type", "untoward_reaction", "taboo", "standard", "product_name", "usage", "notes", "storage", "drug_interactions", "pharmacology", "overdose", "warning", "for_olds", "for_children", "dosage_form", "validity", "specification", "for_pregnant", "revision_date", "pharmacokinetics", "packaging", "URL")
 f8 = File.directory(drug_disp).delimiter('|').header('aname','bname')
+f9 = File.directory(documents).delimiter('|').header("doc_id", "title", "medicine", "content", "other", "URL")
+f10 = File.directory(drug_doc).delimiter('|').header('name','doc_id')
 
 // 药物节点信息
 load(f1).asVertices {
@@ -37,6 +41,12 @@ load(f2).asVertices {
 load(f7).asVertices {
     label "dispensatory"
     key "name"
+}
+
+// 相关文献节点
+load(f9).asVertices {
+    label "document"
+    key "doc_id"
 }
 
 // 药物——成份
@@ -115,5 +125,18 @@ load(f8).asEdges {
     inV "bname", {
         label "dispensatory"
         key "name"
+    }
+}
+
+// 药物——说明书
+load(f10).asEdges {
+    label "相关文献"
+    outV "name", {
+        label "drug"
+        key "name"
+    }
+    inV "doc_id", {
+        label "document"
+        key "doc_id"
     }
 }

@@ -20,7 +20,7 @@ class remote_dse:
     def __init__(self):
         self.use_schema = True  # 选择是否加载schema
         self.use_data = True  # 选择是否加载数据
-        self.graph_name = "medicine_03"
+        self.graph_name = "medicine_latest"
         self.schema_path = "data/schema.groovy"
         self.data_path = "data/load.groovy"
         self.address = "192.168.2.4"
