@@ -12,7 +12,7 @@ schema.propertyKey("approval_number").Text().create()  // 批准文号
 schema.propertyKey("component").Text().create()  // 成份
 schema.propertyKey("character").Text().create()  // 性状
 schema.propertyKey("indication").Text().create()  // 适应症
-schema.propertyKey("manufacturer").Text().create()  // 生产企业
+schema.propertyKey("manufacturer").Text().create()  // 生产厂商
 schema.propertyKey("main_cure").Text().create()  // 主治疾病
 schema.propertyKey("effect_type").Text().create()  // 作用类别
 schema.propertyKey("untoward_reaction").Text().create()  // 不良反应
