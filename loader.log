@@ -1,0 +1,2259 @@
+2018-04-20 11:35:24 DEBUG Executable:82 - Setting cluster builder: com.datastax.dsegraphloader.api.ClusterBuilder@3d921e20
+2018-04-20 11:35:24 DEBUG SystemProperties:23 - com.datastax.driver.NEW_NODE_DELAY_SECONDS is undefined, using default value 1
+2018-04-20 11:35:24 DEBUG SystemProperties:23 - com.datastax.driver.NOTIF_LOCK_TIMEOUT_SECONDS is undefined, using default value 60
+2018-04-20 11:35:24 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2018-04-20 11:35:24 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2018-04-20 11:35:24 DEBUG SystemProperties:23 - com.datastax.driver.NON_BLOCKING_EXECUTOR_SIZE is undefined, using default value 4
+2018-04-20 11:35:24 DEBUG Cluster:1397 - Starting new cluster with contact points [/192.168.2.4:9042]
+2018-04-20 11:35:24 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2018-04-20 11:35:24 DEBUG PlatformDependent0:76 - java.nio.Buffer.address: available
+2018-04-20 11:35:24 DEBUG PlatformDependent0:76 - sun.misc.Unsafe.theUnsafe: available
+2018-04-20 11:35:24 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2018-04-20 11:35:24 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: true
+2018-04-20 11:35:24 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-04-20 11:35:24 DEBUG PlatformDependent:76 - Java version: 8
+2018-04-20 11:35:24 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2018-04-20 11:35:24 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2018-04-20 11:35:24 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2018-04-20 11:35:24 DEBUG PlatformDependent:71 - Javassist: unavailable
+2018-04-20 11:35:24 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2018-04-20 11:35:24 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: /tmp
+2018-04-20 11:35:24 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-04-20 11:35:24 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2018-04-20 11:35:24 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 2058354688 bytes
+2018-04-20 11:35:24 DEBUG SystemProperties:39 - com.datastax.driver.FORCE_NIO is undefined, using default value false
+2018-04-20 11:35:24 WARN  NettyUtil:64 - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2018-04-20 11:35:24 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2018-04-20 11:35:24 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2018-04-20 11:35:24 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-04-20 11:35:24 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2018-04-20 11:35:24 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2018-04-20 11:35:24 DEBUG SystemProperties:39 - com.datastax.driver.EXTENDED_PEER_CHECK is undefined, using default value true
+2018-04-20 11:35:24 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 1
+2018-04-20 11:35:24 DEBUG SystemProperties:39 - com.datastax.driver.DISABLE_COALESCING is undefined, using default value false
+2018-04-20 11:35:24 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2018-04-20 11:35:24 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2018-04-20 11:35:24 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2018-04-20 11:35:24 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2018-04-20 11:35:24 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2018-04-20 11:35:24 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-04-20 11:35:24 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2018-04-20 11:35:24 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2018-04-20 11:35:24 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-04-20 11:35:24 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-04-20 11:35:24 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0xee8ad129c1134d25 (took 0 ms)
+2018-04-20 11:35:24 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: unpooled
+2018-04-20 11:35:24 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-04-20 11:35:24 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-04-20 11:35:25 DEBUG Connection:159 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 11:35:25 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacity.default: 262144
+2018-04-20 11:35:25 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2018-04-20 11:35:25 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2018-04-20 11:35:25 DEBUG SystemProperties:23 - com.datastax.driver.NATIVE_TRANSPORT_MAX_FRAME_SIZE_IN_MB is undefined, using default value 256
+2018-04-20 11:35:25 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 11:35:25 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2018-04-20 11:35:25 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2018-04-20 11:35:25 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2018-04-20 11:35:25 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 0 milliseconds
+2018-04-20 11:35:25 DEBUG STATES:174 - [Control connection] established to /192.168.2.4:9042
+2018-04-20 11:35:25 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'SearchGraphAnalytics' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2018-04-20 11:35:25 INFO  Cluster:1549 - New Cassandra host /192.168.2.4:9042 added
+2018-04-20 11:35:25 DEBUG SystemProperties:39 - com.datastax.driver.CHECK_IO_DEADLOCKS is undefined, using default value true
+2018-04-20 11:35:25 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 2
+2018-04-20 11:35:25 DEBUG Connection:159 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 11:35:25 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 11:35:25 DEBUG HostConnectionPool:143 - Created connection pool to host /192.168.2.4:9042 (1 connections needed, 1 successfully opened)
+2018-04-20 11:35:25 DEBUG Session:385 - Added connection pool for /192.168.2.4:9042
+2018-04-20 11:35:25 DEBUG Cluster:1654 - Shutting down
+2018-04-20 11:35:25 DEBUG Connection:684 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closing connection
+2018-04-20 11:35:25 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2018-04-20 11:35:25 DEBUG Connection:684 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closing connection
+2018-04-20 11:35:25 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2018-04-20 11:35:27 DEBUG PoolThreadCache:81 - Freed 7 thread-local buffer(s) from thread: cluster1-nio-worker-2
+2018-04-20 11:35:27 DEBUG PoolThreadCache:81 - Freed 27 thread-local buffer(s) from thread: cluster1-nio-worker-0
+2018-04-20 11:35:27 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2018-04-20 11:35:27 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2018-04-20 11:35:27 WARN  CodecRegistry:319 - Ignoring codec LineStringCodec ['org.apache.cassandra.db.marshal.LineStringType' <-> com.datastax.driver.dse.geometry.LineString] because it collides with previously registered codec LineStringCodec ['org.apache.cassandra.db.marshal.LineStringType' <-> com.datastax.driver.dse.geometry.LineString]
+2018-04-20 11:35:27 WARN  CodecRegistry:319 - Ignoring codec PointCodec ['org.apache.cassandra.db.marshal.PointType' <-> com.datastax.driver.dse.geometry.Point] because it collides with previously registered codec PointCodec ['org.apache.cassandra.db.marshal.PointType' <-> com.datastax.driver.dse.geometry.Point]
+2018-04-20 11:35:27 WARN  CodecRegistry:319 - Ignoring codec PolygonCodec ['org.apache.cassandra.db.marshal.PolygonType' <-> com.datastax.driver.dse.geometry.Polygon] because it collides with previously registered codec PolygonCodec ['org.apache.cassandra.db.marshal.PolygonType' <-> com.datastax.driver.dse.geometry.Polygon]
+2018-04-20 11:35:27 DEBUG GroovyScriptExecutor:118 - Complete loading script: 
+[1	]  // DATA INPUT
+[2	]  // 更新时间：2018年04月12日13:51:02
+[3	]  
+[4	]  inputfiledir = 'data'
+[5	]  
+[6	]  drugs = inputfiledir+'/药物节点'
+[7	]  manufacturers = inputfiledir+'/生产厂商'
+[8	]  components = inputfiledir+'/药物_成份'
+[9	]  diseases = inputfiledir+'/药物_疾病'
+[10	]  avoids = inputfiledir+'/禁忌'
+[11	]  approval_nums = inputfiledir+'/批准文号'
+[12	]  dispensatories = inputfiledir+'/药品说明书'
+[13	]  drug_disp = inputfiledir+'/药物_说明书'
+[14	]  documents = inputfiledir+'/相关文献节点'
+[15	]  drug_doc = inputfiledir+'/药物_相关文献'
+[16	]  
+[17	]  f1 = File.directory(drugs).delimiter('|').header('name','drug_category')
+[18	]  f2 = File.directory(manufacturers).delimiter('|').header('name')
+[19	]  f3 = File.directory(components).delimiter('|').header('aname','bname')
+[20	]  f4 = File.directory(diseases).delimiter('|').header('aname','bname')
+[21	]  f5 = File.directory(avoids).delimiter('|').header('aname','bname')
+[22	]  f6 = File.directory(approval_nums).delimiter('|').header('aname','bname', 'approval_number')
+[23	]  f7 = File.directory(dispensatories).delimiter('|').header("name", "approval_number", "component", "character", "indication", "manufacturer", "main_cure", "effect_type", "untoward_reaction", "taboo", "standard", "product_name", "usage", "notes", "storage", "drug_interactions", "pharmacology", "overdose", "warning", "for_olds", "for_children", "dosage_form", "validity", "specification", "for_pregnant", "revision_date", "pharmacokinetics", "packaging", "URL")
+[24	]  f8 = File.directory(drug_disp).delimiter('|').header('aname','bname')
+[25	]  f9 = File.directory(documents).delimiter('|').header("doc_id", "title", "medicine", "content", "other", "URL")
+[26	]  f10 = File.directory(drug_doc).delimiter('|').header('name','doc_id')
+[27	]  
+[28	]  // 药物节点信息
+[29	]  load(f1).asVertices {
+[30	]      label "drug"
+[31	]      key "name"
+[32	]  }
+[33	]  
+[34	]  // 生产厂商
+[35	]  load(f2).asVertices {
+[36	]      label "manufacturer"
+[37	]      key "name"
+[38	]  }
+[39	]  
+[40	]  // 说明书节点信息
+[41	]  load(f7).asVertices {
+[42	]      label "dispensatory"
+[43	]      key "name"
+[44	]  }
+[45	]  
+[46	]  // 相关文献节点
+[47	]  load(f9).asVertices {
+[48	]      label "document"
+[49	]      key "doc_id"
+[50	]  }
+[51	]  
+[52	]  // 药物——成份
+[53	]  load(f3).asEdges {
+[54	]      label "含有"
+[55	]      outV "aname", {
+[56	]          label "drug"
+[57	]          key "name"
+[58	]      }
+[59	]      inV "bname", {
+[60	]          label "component"
+[61	]          key "name"
+[62	]      }
+[63	]  }
+[64	]  
+[65	]  // 药物——疾病
+[66	]  load(f4).asEdges {
+[67	]      label "治疗"
+[68	]      outV "aname", {
+[69	]          label "drug"
+[70	]          key "name"
+[71	]      }
+[72	]      inV "bname", {
+[73	]          label "disease"
+[74	]          key "name"
+[75	]      }
+[76	]  }
+[77	]  
+[78	]  
+[79	]  // 药物——禁忌——药物
+[80	]  load(f5).asEdges {
+[81	]      label "禁忌"
+[82	]      outV "aname", {
+[83	]          label "drug"
+[84	]          key "name"
+[85	]      }
+[86	]      inV "bname", {
+[87	]          label "drug"
+[88	]          key "name"
+[89	]      }
+[90	]  }
+[91	]  
+[92	]  // 禁忌（反向）
+[93	]  load(f5).asEdges {
+[94	]      label "禁忌"
+[95	]      outV "bname", {
+[96	]          label "drug"
+[97	]          key "name"
+[98	]      }
+[99	]      inV "aname", {
+[100	]          label "drug"
+[101	]          key "name"
+[102	]      }
+[103	]  }
+[104	]  
+[105	]  // 药物——生产厂商——生产厂商
+[106	]  load(f6).asEdges {
+[107	]      label "生产厂商"
+[108	]      outV "aname", {
+[109	]          label "drug"
+[110	]          key "name"
+[111	]      }
+[112	]      inV "bname", {
+[113	]          label "manufacturer"
+[114	]          key "name"
+[115	]      }
+[116	]  }
+[117	]  
+[118	]  // 药物——说明书
+[119	]  load(f8).asEdges {
+[120	]      label "说明书"
+[121	]      outV "aname", {
+[122	]          label "drug"
+[123	]          key "name"
+[124	]      }
+[125	]      inV "bname", {
+[126	]          label "dispensatory"
+[127	]          key "name"
+[128	]      }
+[129	]  }
+[130	]  
+[131	]  // 药物——说明书
+[132	]  load(f10).asEdges {
+[133	]      label "相关文献"
+[134	]      outV "name", {
+[135	]          label "drug"
+[136	]          key "name"
+[137	]      }
+[138	]      inV "doc_id", {
+[139	]          label "document"
+[140	]          key "doc_id"
+[141	]      }
+[142	]  }
+
+2018-04-20 11:35:28 DEBUG Cluster:1397 - Starting new cluster with contact points [/192.168.2.4:9042]
+2018-04-20 11:35:28 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 1
+2018-04-20 11:35:28 DEBUG Connection:159 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 11:35:28 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 11:35:28 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2018-04-20 11:35:28 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2018-04-20 11:35:28 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2018-04-20 11:35:28 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 0 milliseconds
+2018-04-20 11:35:28 DEBUG STATES:174 - [Control connection] established to /192.168.2.4:9042
+2018-04-20 11:35:28 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'SearchGraphAnalytics' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2018-04-20 11:35:28 INFO  Cluster:1549 - New Cassandra host /192.168.2.4:9042 added
+2018-04-20 11:35:28 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 2
+2018-04-20 11:35:28 DEBUG Connection:159 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 11:35:28 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 11:35:28 DEBUG HostConnectionPool:143 - Created connection pool to host /192.168.2.4:9042 (1 connections needed, 1 successfully opened)
+2018-04-20 11:35:28 DEBUG Session:385 - Added connection pool for /192.168.2.4:9042
+2018-04-20 11:35:28 DEBUG GraphJsonUtils:82 - JSR 310 found on the classpath, registering serializers for java.time temporal types
+2018-04-20 11:35:28 INFO  DataLoaderImpl:239 - Initializing tasks with [1] read threads and [2] loader threads
+2018-04-20 11:35:28 INFO  DataLoaderImpl:240 - Initializing tasks with [6] edge loading threads and [2] vertex loading threads
+2018-04-20 11:35:28 INFO  DataLoaderImpl:210 - Scheduling [药物节点] for reading
+2018-04-20 11:35:29 DEBUG Reporter:69 - Input queue [药物节点] throughput is [5688.867887770179] items/s
+2018-04-20 11:35:29 DEBUG Reporter:120 - query times 3: p50 3530.0µs, p80 3530.0µs, p90 3530.0µs, p95 3530.0µs, p99 3530.0µs, p99.9 3530.0µs, p99.99 3530.0µs
+2018-04-20 11:35:29 INFO  DataLoaderImpl:210 - Scheduling [生产厂商] for reading
+2018-04-20 11:35:29 INFO  DataLoaderImpl:210 - Scheduling [药品说明书] for reading
+2018-04-20 11:35:30 DEBUG Reporter:69 - Input queue [生产厂商] throughput is [3871.214236902323] items/s
+2018-04-20 11:35:30 DEBUG Reporter:69 - Input queue [药品说明书] throughput is [2965.2303957734794] items/s
+2018-04-20 11:35:30 INFO  DataLoaderImpl:210 - Scheduling [相关文献节点] for reading
+2018-04-20 11:35:30 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [2] does not match header length [6] on: [注射用胸腺肽_5, ST四环]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:35:30 ERROR DataLoaderImpl:651 - Could not process source record [[注射用胸腺肽_5, ST四环]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [2] does not match header length [6] on: [注射用胸腺肽_5, ST四环]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:35:30 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: []
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:35:30 ERROR DataLoaderImpl:651 - Could not process source record [[]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: []
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:35:30 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [5] does not match header length [6] on: [拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:35:30 ERROR DataLoaderImpl:651 - Could not process source record [[拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [5] does not match header length [6] on: [拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:35:30 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: [                  <div class=]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:35:30 ERROR DataLoaderImpl:651 - Could not process source record [[                  <div class=]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: [                  <div class=]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:35:31 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [43595.09833955477] items/s
+2018-04-20 11:35:31 INFO  DataLoaderImpl:210 - Scheduling [药物_成份] for reading
+2018-04-20 11:35:31 INFO  DataLoaderImpl:210 - Scheduling [药物_疾病] for reading
+2018-04-20 11:35:32 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 11:35:32 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 11:35:32 INFO  DataLoaderImpl:210 - Scheduling [批准文号] for reading
+2018-04-20 11:35:32 DEBUG Reporter:69 - Input queue [药物_成份] throughput is [16481.409794927946] items/s
+2018-04-20 11:35:32 DEBUG Reporter:69 - Input queue [禁忌] throughput is [45625.10478231764] items/s
+2018-04-20 11:35:32 DEBUG Reporter:69 - Input queue [药物_疾病] throughput is [55598.03086439223] items/s
+2018-04-20 11:35:32 DEBUG Reporter:69 - Input queue [批准文号] throughput is [237149.86074525924] items/s
+2018-04-20 11:35:32 DEBUG Reporter:70 - Input queue [批准文号] has [9876] entries
+2018-04-20 11:35:32 INFO  DataLoaderImpl:210 - Scheduling [药物_说明书] for reading
+2018-04-20 11:35:32 INFO  DataLoaderImpl:210 - Scheduling [药物_相关文献] for reading
+2018-04-20 11:35:32 DEBUG Cluster:1654 - Shutting down
+2018-04-20 11:35:32 DEBUG Connection:684 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closing connection
+2018-04-20 11:35:32 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2018-04-20 11:35:32 DEBUG Connection:684 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closing connection
+2018-04-20 11:35:32 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2018-04-20 11:35:33 DEBUG Reporter:69 - Input queue [药物_说明书] throughput is [2792.481929862125] items/s
+2018-04-20 11:35:33 DEBUG Reporter:69 - Input queue [药物_相关文献] throughput is [55093.3713423017] items/s
+2018-04-20 11:35:33 DEBUG Reporter:69 - Input queue [批准文号] throughput is [26934.778225203063] items/s
+2018-04-20 11:35:34 DEBUG PoolThreadCache:81 - Freed 9 thread-local buffer(s) from thread: cluster2-nio-worker-2
+2018-04-20 11:35:34 DEBUG PoolThreadCache:81 - Freed 27 thread-local buffer(s) from thread: cluster2-nio-worker-0
+2018-04-20 11:35:34 ERROR Executable:205 - Encountered error while loading
+com.datastax.dsegraphloader.exception.LoadingException: There were exceptions in the preparation phase, and the loader is configured to abort on load, check the log for details
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl.execute(DataLoaderImpl.java:281)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderBuilder.execute(DataLoaderBuilder.java:111)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:106)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:52)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:203)
+2018-04-20 11:43:59 DEBUG Executable:82 - Setting cluster builder: com.datastax.dsegraphloader.api.ClusterBuilder@3d921e20
+2018-04-20 11:44:00 DEBUG SystemProperties:23 - com.datastax.driver.NEW_NODE_DELAY_SECONDS is undefined, using default value 1
+2018-04-20 11:44:00 DEBUG SystemProperties:23 - com.datastax.driver.NOTIF_LOCK_TIMEOUT_SECONDS is undefined, using default value 60
+2018-04-20 11:44:00 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2018-04-20 11:44:00 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2018-04-20 11:44:00 DEBUG SystemProperties:23 - com.datastax.driver.NON_BLOCKING_EXECUTOR_SIZE is undefined, using default value 4
+2018-04-20 11:44:00 DEBUG Cluster:1397 - Starting new cluster with contact points [/192.168.2.4:9042]
+2018-04-20 11:44:00 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2018-04-20 11:44:00 DEBUG PlatformDependent0:76 - java.nio.Buffer.address: available
+2018-04-20 11:44:00 DEBUG PlatformDependent0:76 - sun.misc.Unsafe.theUnsafe: available
+2018-04-20 11:44:00 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2018-04-20 11:44:00 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: true
+2018-04-20 11:44:00 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-04-20 11:44:00 DEBUG PlatformDependent:76 - Java version: 8
+2018-04-20 11:44:00 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2018-04-20 11:44:00 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2018-04-20 11:44:00 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2018-04-20 11:44:00 DEBUG PlatformDependent:71 - Javassist: unavailable
+2018-04-20 11:44:00 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2018-04-20 11:44:00 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: /tmp
+2018-04-20 11:44:00 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-04-20 11:44:00 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2018-04-20 11:44:00 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 2058354688 bytes
+2018-04-20 11:44:00 DEBUG SystemProperties:39 - com.datastax.driver.FORCE_NIO is undefined, using default value false
+2018-04-20 11:44:00 WARN  NettyUtil:64 - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2018-04-20 11:44:00 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2018-04-20 11:44:00 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2018-04-20 11:44:00 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-04-20 11:44:00 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2018-04-20 11:44:00 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2018-04-20 11:44:00 DEBUG SystemProperties:39 - com.datastax.driver.EXTENDED_PEER_CHECK is undefined, using default value true
+2018-04-20 11:44:00 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 1
+2018-04-20 11:44:00 DEBUG SystemProperties:39 - com.datastax.driver.DISABLE_COALESCING is undefined, using default value false
+2018-04-20 11:44:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2018-04-20 11:44:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2018-04-20 11:44:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2018-04-20 11:44:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2018-04-20 11:44:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2018-04-20 11:44:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-04-20 11:44:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2018-04-20 11:44:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2018-04-20 11:44:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-04-20 11:44:00 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-04-20 11:44:00 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0x312cb8330a6b0d27 (took 0 ms)
+2018-04-20 11:44:00 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: unpooled
+2018-04-20 11:44:00 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-04-20 11:44:00 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-04-20 11:44:00 DEBUG Connection:159 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 11:44:00 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacity.default: 262144
+2018-04-20 11:44:00 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2018-04-20 11:44:00 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2018-04-20 11:44:01 DEBUG SystemProperties:23 - com.datastax.driver.NATIVE_TRANSPORT_MAX_FRAME_SIZE_IN_MB is undefined, using default value 256
+2018-04-20 11:44:01 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 11:44:01 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2018-04-20 11:44:01 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2018-04-20 11:44:01 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2018-04-20 11:44:01 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 0 milliseconds
+2018-04-20 11:44:01 DEBUG STATES:174 - [Control connection] established to /192.168.2.4:9042
+2018-04-20 11:44:01 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'SearchGraphAnalytics' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2018-04-20 11:44:01 INFO  Cluster:1549 - New Cassandra host /192.168.2.4:9042 added
+2018-04-20 11:44:01 DEBUG SystemProperties:39 - com.datastax.driver.CHECK_IO_DEADLOCKS is undefined, using default value true
+2018-04-20 11:44:01 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 2
+2018-04-20 11:44:01 DEBUG Connection:159 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 11:44:01 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 11:44:01 DEBUG HostConnectionPool:143 - Created connection pool to host /192.168.2.4:9042 (1 connections needed, 1 successfully opened)
+2018-04-20 11:44:01 DEBUG Session:385 - Added connection pool for /192.168.2.4:9042
+2018-04-20 11:44:01 DEBUG Cluster:1654 - Shutting down
+2018-04-20 11:44:01 DEBUG Connection:684 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closing connection
+2018-04-20 11:44:01 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2018-04-20 11:44:01 DEBUG Connection:684 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closing connection
+2018-04-20 11:44:01 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2018-04-20 11:44:03 DEBUG PoolThreadCache:81 - Freed 7 thread-local buffer(s) from thread: cluster1-nio-worker-2
+2018-04-20 11:44:03 DEBUG PoolThreadCache:81 - Freed 25 thread-local buffer(s) from thread: cluster1-nio-worker-0
+2018-04-20 11:44:03 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2018-04-20 11:44:03 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2018-04-20 11:44:03 WARN  CodecRegistry:319 - Ignoring codec LineStringCodec ['org.apache.cassandra.db.marshal.LineStringType' <-> com.datastax.driver.dse.geometry.LineString] because it collides with previously registered codec LineStringCodec ['org.apache.cassandra.db.marshal.LineStringType' <-> com.datastax.driver.dse.geometry.LineString]
+2018-04-20 11:44:03 WARN  CodecRegistry:319 - Ignoring codec PointCodec ['org.apache.cassandra.db.marshal.PointType' <-> com.datastax.driver.dse.geometry.Point] because it collides with previously registered codec PointCodec ['org.apache.cassandra.db.marshal.PointType' <-> com.datastax.driver.dse.geometry.Point]
+2018-04-20 11:44:03 WARN  CodecRegistry:319 - Ignoring codec PolygonCodec ['org.apache.cassandra.db.marshal.PolygonType' <-> com.datastax.driver.dse.geometry.Polygon] because it collides with previously registered codec PolygonCodec ['org.apache.cassandra.db.marshal.PolygonType' <-> com.datastax.driver.dse.geometry.Polygon]
+2018-04-20 11:44:03 DEBUG GroovyScriptExecutor:118 - Complete loading script: 
+[1	]  // DATA INPUT
+[2	]  // 更新时间：2018年04月12日13:51:02
+[3	]  
+[4	]  inputfiledir = 'data'
+[5	]  
+[6	]  drugs = inputfiledir+'/药物节点'
+[7	]  manufacturers = inputfiledir+'/生产厂商'
+[8	]  components = inputfiledir+'/药物_成份'
+[9	]  diseases = inputfiledir+'/药物_疾病'
+[10	]  avoids = inputfiledir+'/禁忌'
+[11	]  approval_nums = inputfiledir+'/批准文号'
+[12	]  dispensatories = inputfiledir+'/药品说明书'
+[13	]  drug_disp = inputfiledir+'/药物_说明书'
+[14	]  documents = inputfiledir+'/相关文献节点'
+[15	]  drug_doc = inputfiledir+'/药物_相关文献'
+[16	]  
+[17	]  f1 = File.directory(drugs).delimiter('|').header('name','drug_category')
+[18	]  f2 = File.directory(manufacturers).delimiter('|').header('name')
+[19	]  f3 = File.directory(components).delimiter('|').header('aname','bname')
+[20	]  f4 = File.directory(diseases).delimiter('|').header('aname','bname')
+[21	]  f5 = File.directory(avoids).delimiter('|').header('aname','bname')
+[22	]  f6 = File.directory(approval_nums).delimiter('|').header('aname','bname', 'approval_number')
+[23	]  f7 = File.directory(dispensatories).delimiter('|').header("name", "approval_number", "component", "character", "indication", "manufacturer", "main_cure", "effect_type", "untoward_reaction", "taboo", "standard", "product_name", "usage", "notes", "storage", "drug_interactions", "pharmacology", "overdose", "warning", "for_olds", "for_children", "dosage_form", "validity", "specification", "for_pregnant", "revision_date", "pharmacokinetics", "packaging", "URL")
+[24	]  f8 = File.directory(drug_disp).delimiter('|').header('aname','bname')
+[25	]  f9 = File.directory(documents).delimiter('|').header("doc_id", "title", "medicine", "content", "other", "URL")
+[26	]  f10 = File.directory(drug_doc).delimiter('|').header('name','doc_id')
+[27	]  
+[28	]  // 药物节点信息
+[29	]  load(f1).asVertices {
+[30	]      label "drug"
+[31	]      key "name"
+[32	]  }
+[33	]  
+[34	]  // 生产厂商
+[35	]  load(f2).asVertices {
+[36	]      label "manufacturer"
+[37	]      key "name"
+[38	]  }
+[39	]  
+[40	]  // 说明书节点信息
+[41	]  load(f7).asVertices {
+[42	]      label "dispensatory"
+[43	]      key "name"
+[44	]  }
+[45	]  
+[46	]  // 相关文献节点
+[47	]  load(f9).asVertices {
+[48	]      label "document"
+[49	]      key "doc_id"
+[50	]  }
+[51	]  
+[52	]  // 药物——成份
+[53	]  load(f3).asEdges {
+[54	]      label "含有"
+[55	]      outV "aname", {
+[56	]          label "drug"
+[57	]          key "name"
+[58	]      }
+[59	]      inV "bname", {
+[60	]          label "component"
+[61	]          key "name"
+[62	]      }
+[63	]  }
+[64	]  
+[65	]  // 药物——疾病
+[66	]  load(f4).asEdges {
+[67	]      label "治疗"
+[68	]      outV "aname", {
+[69	]          label "drug"
+[70	]          key "name"
+[71	]      }
+[72	]      inV "bname", {
+[73	]          label "disease"
+[74	]          key "name"
+[75	]      }
+[76	]  }
+[77	]  
+[78	]  
+[79	]  // 药物——禁忌——药物
+[80	]  load(f5).asEdges {
+[81	]      label "禁忌"
+[82	]      outV "aname", {
+[83	]          label "drug"
+[84	]          key "name"
+[85	]      }
+[86	]      inV "bname", {
+[87	]          label "drug"
+[88	]          key "name"
+[89	]      }
+[90	]  }
+[91	]  
+[92	]  // 禁忌（反向）
+[93	]  load(f5).asEdges {
+[94	]      label "禁忌"
+[95	]      outV "bname", {
+[96	]          label "drug"
+[97	]          key "name"
+[98	]      }
+[99	]      inV "aname", {
+[100	]          label "drug"
+[101	]          key "name"
+[102	]      }
+[103	]  }
+[104	]  
+[105	]  // 药物——生产厂商——生产厂商
+[106	]  load(f6).asEdges {
+[107	]      label "生产厂商"
+[108	]      outV "aname", {
+[109	]          label "drug"
+[110	]          key "name"
+[111	]      }
+[112	]      inV "bname", {
+[113	]          label "manufacturer"
+[114	]          key "name"
+[115	]      }
+[116	]  }
+[117	]  
+[118	]  // 药物——说明书
+[119	]  load(f8).asEdges {
+[120	]      label "说明书"
+[121	]      outV "aname", {
+[122	]          label "drug"
+[123	]          key "name"
+[124	]      }
+[125	]      inV "bname", {
+[126	]          label "dispensatory"
+[127	]          key "name"
+[128	]      }
+[129	]  }
+[130	]  
+[131	]  // 药物——说明书
+[132	]  load(f10).asEdges {
+[133	]      label "相关文献"
+[134	]      outV "name", {
+[135	]          label "drug"
+[136	]          key "name"
+[137	]      }
+[138	]      inV "doc_id", {
+[139	]          label "document"
+[140	]          key "doc_id"
+[141	]      }
+[142	]  }
+
+2018-04-20 11:44:04 DEBUG Cluster:1397 - Starting new cluster with contact points [/192.168.2.4:9042]
+2018-04-20 11:44:04 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 1
+2018-04-20 11:44:04 DEBUG Connection:159 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 11:44:04 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 11:44:04 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2018-04-20 11:44:04 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2018-04-20 11:44:04 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2018-04-20 11:44:04 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 0 milliseconds
+2018-04-20 11:44:04 DEBUG STATES:174 - [Control connection] established to /192.168.2.4:9042
+2018-04-20 11:44:04 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'SearchGraphAnalytics' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2018-04-20 11:44:04 INFO  Cluster:1549 - New Cassandra host /192.168.2.4:9042 added
+2018-04-20 11:44:04 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 2
+2018-04-20 11:44:04 DEBUG Connection:159 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 11:44:04 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 11:44:04 DEBUG HostConnectionPool:143 - Created connection pool to host /192.168.2.4:9042 (1 connections needed, 1 successfully opened)
+2018-04-20 11:44:04 DEBUG Session:385 - Added connection pool for /192.168.2.4:9042
+2018-04-20 11:44:05 DEBUG GraphJsonUtils:82 - JSR 310 found on the classpath, registering serializers for java.time temporal types
+2018-04-20 11:44:05 INFO  DataLoaderImpl:239 - Initializing tasks with [1] read threads and [2] loader threads
+2018-04-20 11:44:05 INFO  DataLoaderImpl:240 - Initializing tasks with [6] edge loading threads and [2] vertex loading threads
+2018-04-20 11:44:05 INFO  DataLoaderImpl:210 - Scheduling [药物节点] for reading
+2018-04-20 11:44:05 INFO  DataLoaderImpl:210 - Scheduling [生产厂商] for reading
+2018-04-20 11:44:05 INFO  DataLoaderImpl:210 - Scheduling [药品说明书] for reading
+2018-04-20 11:44:05 INFO  DataLoaderImpl:210 - Scheduling [相关文献节点] for reading
+2018-04-20 11:44:05 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: []
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:44:05 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [2] does not match header length [6] on: [注射用胸腺肽_5, ST四环]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:44:05 ERROR DataLoaderImpl:651 - Could not process source record [[]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: []
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:44:05 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [5] does not match header length [6] on: [拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:44:05 ERROR DataLoaderImpl:651 - Could not process source record [[拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [5] does not match header length [6] on: [拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:44:05 ERROR DataLoaderImpl:651 - Could not process source record [[注射用胸腺肽_5, ST四环]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [2] does not match header length [6] on: [注射用胸腺肽_5, ST四环]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:44:05 DEBUG Reporter:69 - Input queue [生产厂商] throughput is [7328.169907040378] items/s
+2018-04-20 11:44:05 DEBUG Reporter:69 - Input queue [药物节点] throughput is [4970.042209348401] items/s
+2018-04-20 11:44:05 DEBUG Reporter:69 - Input queue [药品说明书] throughput is [6130.714598963944] items/s
+2018-04-20 11:44:05 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [36143.95209397529] items/s
+2018-04-20 11:44:05 DEBUG Reporter:70 - Input queue [相关文献节点] has [92] entries
+2018-04-20 11:44:05 DEBUG Reporter:120 - query times 3: p50 3385.0µs, p80 3385.0µs, p90 3385.0µs, p95 3385.0µs, p99 3385.0µs, p99.9 3385.0µs, p99.99 3385.0µs
+2018-04-20 11:44:05 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: [                  <div class=]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:44:05 ERROR DataLoaderImpl:651 - Could not process source record [[                  <div class=]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: [                  <div class=]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:44:06 INFO  DataLoaderImpl:210 - Scheduling [药物_成份] for reading
+2018-04-20 11:44:06 INFO  DataLoaderImpl:210 - Scheduling [药物_疾病] for reading
+2018-04-20 11:44:06 DEBUG Reporter:69 - Input queue [药物_成份] throughput is [59078.12026986801] items/s
+2018-04-20 11:44:06 DEBUG Reporter:69 - Input queue [药物_疾病] throughput is [483910.40356429724] items/s
+2018-04-20 11:44:06 DEBUG Reporter:70 - Input queue [药物_疾病] has [9999] entries
+2018-04-20 11:44:06 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [38791.034040218474] items/s
+2018-04-20 11:44:07 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 11:44:07 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 11:44:07 INFO  DataLoaderImpl:210 - Scheduling [批准文号] for reading
+2018-04-20 11:44:07 DEBUG Reporter:69 - Input queue [禁忌] throughput is [14234.745321350398] items/s
+2018-04-20 11:44:07 DEBUG Reporter:69 - Input queue [药物_疾病] throughput is [20506.092713909486] items/s
+2018-04-20 11:44:07 DEBUG Reporter:69 - Input queue [批准文号] throughput is [133845.06765981056] items/s
+2018-04-20 11:44:07 DEBUG Reporter:70 - Input queue [批准文号] has [9997] entries
+2018-04-20 11:44:07 INFO  DataLoaderImpl:210 - Scheduling [药物_说明书] for reading
+2018-04-20 11:44:07 INFO  DataLoaderImpl:210 - Scheduling [药物_相关文献] for reading
+2018-04-20 11:44:08 DEBUG Cluster:1654 - Shutting down
+2018-04-20 11:44:08 DEBUG Connection:684 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closing connection
+2018-04-20 11:44:08 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2018-04-20 11:44:08 DEBUG Connection:684 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closing connection
+2018-04-20 11:44:08 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2018-04-20 11:44:08 DEBUG Reporter:69 - Input queue [药物_说明书] throughput is [2450.212276813561] items/s
+2018-04-20 11:44:08 DEBUG Reporter:69 - Input queue [药物_相关文献] throughput is [48199.055862910056] items/s
+2018-04-20 11:44:08 DEBUG Reporter:69 - Input queue [批准文号] throughput is [7041.003526244008] items/s
+2018-04-20 11:44:10 DEBUG PoolThreadCache:81 - Freed 9 thread-local buffer(s) from thread: cluster2-nio-worker-2
+2018-04-20 11:44:10 DEBUG PoolThreadCache:81 - Freed 23 thread-local buffer(s) from thread: cluster2-nio-worker-0
+2018-04-20 11:44:10 ERROR Executable:205 - Encountered error while loading
+com.datastax.dsegraphloader.exception.LoadingException: There were exceptions in the preparation phase, and the loader is configured to abort on load, check the log for details
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl.execute(DataLoaderImpl.java:281)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderBuilder.execute(DataLoaderBuilder.java:111)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:106)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:52)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:203)
+2018-04-20 12:19:09 DEBUG Executable:82 - Setting cluster builder: com.datastax.dsegraphloader.api.ClusterBuilder@3d921e20
+2018-04-20 12:19:09 DEBUG SystemProperties:23 - com.datastax.driver.NEW_NODE_DELAY_SECONDS is undefined, using default value 1
+2018-04-20 12:19:09 DEBUG SystemProperties:23 - com.datastax.driver.NOTIF_LOCK_TIMEOUT_SECONDS is undefined, using default value 60
+2018-04-20 12:19:09 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2018-04-20 12:19:09 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2018-04-20 12:19:09 DEBUG SystemProperties:23 - com.datastax.driver.NON_BLOCKING_EXECUTOR_SIZE is undefined, using default value 4
+2018-04-20 12:19:09 DEBUG Cluster:1397 - Starting new cluster with contact points [/192.168.2.4:9042]
+2018-04-20 12:19:09 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2018-04-20 12:19:09 DEBUG PlatformDependent0:76 - java.nio.Buffer.address: available
+2018-04-20 12:19:09 DEBUG PlatformDependent0:76 - sun.misc.Unsafe.theUnsafe: available
+2018-04-20 12:19:09 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2018-04-20 12:19:09 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: true
+2018-04-20 12:19:09 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-04-20 12:19:09 DEBUG PlatformDependent:76 - Java version: 8
+2018-04-20 12:19:09 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2018-04-20 12:19:09 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2018-04-20 12:19:09 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2018-04-20 12:19:09 DEBUG PlatformDependent:71 - Javassist: unavailable
+2018-04-20 12:19:09 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2018-04-20 12:19:09 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: /tmp
+2018-04-20 12:19:09 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-04-20 12:19:09 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2018-04-20 12:19:09 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 2058354688 bytes
+2018-04-20 12:19:09 DEBUG SystemProperties:39 - com.datastax.driver.FORCE_NIO is undefined, using default value false
+2018-04-20 12:19:09 WARN  NettyUtil:64 - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2018-04-20 12:19:09 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2018-04-20 12:19:09 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2018-04-20 12:19:09 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-04-20 12:19:09 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2018-04-20 12:19:09 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2018-04-20 12:19:09 DEBUG SystemProperties:39 - com.datastax.driver.EXTENDED_PEER_CHECK is undefined, using default value true
+2018-04-20 12:19:09 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 1
+2018-04-20 12:19:09 DEBUG SystemProperties:39 - com.datastax.driver.DISABLE_COALESCING is undefined, using default value false
+2018-04-20 12:19:09 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2018-04-20 12:19:09 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2018-04-20 12:19:09 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2018-04-20 12:19:09 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2018-04-20 12:19:09 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2018-04-20 12:19:09 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-04-20 12:19:09 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2018-04-20 12:19:09 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2018-04-20 12:19:09 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-04-20 12:19:09 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-04-20 12:19:09 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0x8c12f7344ff3ca1c (took 0 ms)
+2018-04-20 12:19:09 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: unpooled
+2018-04-20 12:19:09 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-04-20 12:19:09 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-04-20 12:19:09 DEBUG Connection:159 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:19:09 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacity.default: 262144
+2018-04-20 12:19:09 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2018-04-20 12:19:09 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2018-04-20 12:19:09 DEBUG SystemProperties:23 - com.datastax.driver.NATIVE_TRANSPORT_MAX_FRAME_SIZE_IN_MB is undefined, using default value 256
+2018-04-20 12:19:09 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:19:09 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2018-04-20 12:19:09 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2018-04-20 12:19:10 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2018-04-20 12:19:10 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 0 milliseconds
+2018-04-20 12:19:10 DEBUG STATES:174 - [Control connection] established to /192.168.2.4:9042
+2018-04-20 12:19:10 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'SearchGraphAnalytics' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2018-04-20 12:19:10 INFO  Cluster:1549 - New Cassandra host /192.168.2.4:9042 added
+2018-04-20 12:19:10 DEBUG SystemProperties:39 - com.datastax.driver.CHECK_IO_DEADLOCKS is undefined, using default value true
+2018-04-20 12:19:10 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 2
+2018-04-20 12:19:10 DEBUG Connection:159 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:19:10 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:19:10 DEBUG HostConnectionPool:143 - Created connection pool to host /192.168.2.4:9042 (1 connections needed, 1 successfully opened)
+2018-04-20 12:19:10 DEBUG Session:385 - Added connection pool for /192.168.2.4:9042
+2018-04-20 12:19:10 DEBUG Cluster:1654 - Shutting down
+2018-04-20 12:19:10 DEBUG Connection:684 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closing connection
+2018-04-20 12:19:10 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2018-04-20 12:19:10 DEBUG Connection:684 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closing connection
+2018-04-20 12:19:10 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2018-04-20 12:19:12 DEBUG PoolThreadCache:81 - Freed 7 thread-local buffer(s) from thread: cluster1-nio-worker-2
+2018-04-20 12:19:12 DEBUG PoolThreadCache:81 - Freed 25 thread-local buffer(s) from thread: cluster1-nio-worker-0
+2018-04-20 12:19:12 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2018-04-20 12:19:12 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2018-04-20 12:19:12 WARN  CodecRegistry:319 - Ignoring codec LineStringCodec ['org.apache.cassandra.db.marshal.LineStringType' <-> com.datastax.driver.dse.geometry.LineString] because it collides with previously registered codec LineStringCodec ['org.apache.cassandra.db.marshal.LineStringType' <-> com.datastax.driver.dse.geometry.LineString]
+2018-04-20 12:19:12 WARN  CodecRegistry:319 - Ignoring codec PointCodec ['org.apache.cassandra.db.marshal.PointType' <-> com.datastax.driver.dse.geometry.Point] because it collides with previously registered codec PointCodec ['org.apache.cassandra.db.marshal.PointType' <-> com.datastax.driver.dse.geometry.Point]
+2018-04-20 12:19:12 WARN  CodecRegistry:319 - Ignoring codec PolygonCodec ['org.apache.cassandra.db.marshal.PolygonType' <-> com.datastax.driver.dse.geometry.Polygon] because it collides with previously registered codec PolygonCodec ['org.apache.cassandra.db.marshal.PolygonType' <-> com.datastax.driver.dse.geometry.Polygon]
+2018-04-20 12:19:12 DEBUG GroovyScriptExecutor:118 - Complete loading script: 
+[1	]  // DATA INPUT
+[2	]  // 更新时间：2018年04月12日13:51:02
+[3	]  
+[4	]  inputfiledir = 'data'
+[5	]  
+[6	]  drugs = inputfiledir+'/药物节点'
+[7	]  manufacturers = inputfiledir+'/生产厂商'
+[8	]  components = inputfiledir+'/药物_成份'
+[9	]  diseases = inputfiledir+'/药物_疾病'
+[10	]  avoids = inputfiledir+'/禁忌'
+[11	]  approval_nums = inputfiledir+'/批准文号'
+[12	]  dispensatories = inputfiledir+'/药品说明书'
+[13	]  drug_disp = inputfiledir+'/药物_说明书'
+[14	]  documents = inputfiledir+'/相关文献节点'
+[15	]  drug_doc = inputfiledir+'/药物_相关文献'
+[16	]  
+[17	]  f1 = File.directory(drugs).delimiter('|').header('name','drug_category')
+[18	]  f2 = File.directory(manufacturers).delimiter('|').header('name')
+[19	]  f3 = File.directory(components).delimiter('|').header('aname','bname')
+[20	]  f4 = File.directory(diseases).delimiter('|').header('aname','bname')
+[21	]  f5 = File.directory(avoids).delimiter('|').header('aname','bname')
+[22	]  f6 = File.directory(approval_nums).delimiter('|').header('aname','bname', 'approval_number')
+[23	]  f7 = File.directory(dispensatories).delimiter('|').header("name", "approval_number", "component", "character", "indication", "manufacturer", "main_cure", "effect_type", "untoward_reaction", "taboo", "standard", "product_name", "usage", "notes", "storage", "drug_interactions", "pharmacology", "overdose", "warning", "for_olds", "for_children", "dosage_form", "validity", "specification", "for_pregnant", "revision_date", "pharmacokinetics", "packaging", "URL")
+[24	]  f8 = File.directory(drug_disp).delimiter('|').header('aname','bname')
+[25	]  f9 = File.directory(documents).delimiter('|').header("doc_id", "title", "medicine", "content", "other", "URL")
+[26	]  f10 = File.directory(drug_doc).delimiter('|').header('name','doc_id')
+[27	]  
+[28	]  // 药物节点信息
+[29	]  load(f1).asVertices {
+[30	]      label "drug"
+[31	]      key "name"
+[32	]  }
+[33	]  
+[34	]  // 生产厂商
+[35	]  load(f2).asVertices {
+[36	]      label "manufacturer"
+[37	]      key "name"
+[38	]  }
+[39	]  
+[40	]  // 说明书节点信息
+[41	]  load(f7).asVertices {
+[42	]      label "dispensatory"
+[43	]      key "name"
+[44	]  }
+[45	]  
+[46	]  // 相关文献节点
+[47	]  load(f9).asVertices {
+[48	]      label "document"
+[49	]      key "doc_id"
+[50	]  }
+[51	]  
+[52	]  // 药物——成份
+[53	]  load(f3).asEdges {
+[54	]      label "含有"
+[55	]      outV "aname", {
+[56	]          label "drug"
+[57	]          key "name"
+[58	]      }
+[59	]      inV "bname", {
+[60	]          label "component"
+[61	]          key "name"
+[62	]      }
+[63	]  }
+[64	]  
+[65	]  // 药物——疾病
+[66	]  load(f4).asEdges {
+[67	]      label "治疗"
+[68	]      outV "aname", {
+[69	]          label "drug"
+[70	]          key "name"
+[71	]      }
+[72	]      inV "bname", {
+[73	]          label "disease"
+[74	]          key "name"
+[75	]      }
+[76	]  }
+[77	]  
+[78	]  
+[79	]  // 药物——禁忌——药物
+[80	]  load(f5).asEdges {
+[81	]      label "禁忌"
+[82	]      outV "aname", {
+[83	]          label "drug"
+[84	]          key "name"
+[85	]      }
+[86	]      inV "bname", {
+[87	]          label "drug"
+[88	]          key "name"
+[89	]      }
+[90	]  }
+[91	]  
+[92	]  // 禁忌（反向）
+[93	]  load(f5).asEdges {
+[94	]      label "禁忌"
+[95	]      outV "bname", {
+[96	]          label "drug"
+[97	]          key "name"
+[98	]      }
+[99	]      inV "aname", {
+[100	]          label "drug"
+[101	]          key "name"
+[102	]      }
+[103	]  }
+[104	]  
+[105	]  // 药物——生产厂商——生产厂商
+[106	]  load(f6).asEdges {
+[107	]      label "生产厂商"
+[108	]      outV "aname", {
+[109	]          label "drug"
+[110	]          key "name"
+[111	]      }
+[112	]      inV "bname", {
+[113	]          label "manufacturer"
+[114	]          key "name"
+[115	]      }
+[116	]  }
+[117	]  
+[118	]  // 药物——说明书
+[119	]  load(f8).asEdges {
+[120	]      label "说明书"
+[121	]      outV "aname", {
+[122	]          label "drug"
+[123	]          key "name"
+[124	]      }
+[125	]      inV "bname", {
+[126	]          label "dispensatory"
+[127	]          key "name"
+[128	]      }
+[129	]  }
+[130	]  
+[131	]  // 药物——说明书
+[132	]  load(f10).asEdges {
+[133	]      label "相关文献"
+[134	]      outV "name", {
+[135	]          label "drug"
+[136	]          key "name"
+[137	]      }
+[138	]      inV "doc_id", {
+[139	]          label "document"
+[140	]          key "doc_id"
+[141	]      }
+[142	]  }
+
+2018-04-20 12:19:13 DEBUG Cluster:1397 - Starting new cluster with contact points [/192.168.2.4:9042]
+2018-04-20 12:19:13 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 1
+2018-04-20 12:19:13 DEBUG Connection:159 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:19:13 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:19:13 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2018-04-20 12:19:13 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2018-04-20 12:19:13 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2018-04-20 12:19:13 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 0 milliseconds
+2018-04-20 12:19:13 DEBUG STATES:174 - [Control connection] established to /192.168.2.4:9042
+2018-04-20 12:19:13 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'SearchGraphAnalytics' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2018-04-20 12:19:13 INFO  Cluster:1549 - New Cassandra host /192.168.2.4:9042 added
+2018-04-20 12:19:13 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 2
+2018-04-20 12:19:13 DEBUG Connection:159 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:19:13 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:19:13 DEBUG HostConnectionPool:143 - Created connection pool to host /192.168.2.4:9042 (1 connections needed, 1 successfully opened)
+2018-04-20 12:19:13 DEBUG Session:385 - Added connection pool for /192.168.2.4:9042
+2018-04-20 12:19:13 DEBUG GraphJsonUtils:82 - JSR 310 found on the classpath, registering serializers for java.time temporal types
+2018-04-20 12:19:13 INFO  DataLoaderImpl:239 - Initializing tasks with [1] read threads and [2] loader threads
+2018-04-20 12:19:13 INFO  DataLoaderImpl:240 - Initializing tasks with [6] edge loading threads and [2] vertex loading threads
+2018-04-20 12:19:13 INFO  DataLoaderImpl:210 - Scheduling [药物节点] for reading
+2018-04-20 12:19:13 INFO  DataLoaderImpl:210 - Scheduling [生产厂商] for reading
+2018-04-20 12:19:13 INFO  DataLoaderImpl:210 - Scheduling [药品说明书] for reading
+2018-04-20 12:19:14 INFO  DataLoaderImpl:210 - Scheduling [相关文献节点] for reading
+2018-04-20 12:19:14 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: []
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:19:14 ERROR DataLoaderImpl:651 - Could not process source record [[]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: []
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:19:14 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [5] does not match header length [6] on: [拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:19:14 ERROR DataLoaderImpl:651 - Could not process source record [[拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [5] does not match header length [6] on: [拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:19:14 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [2] does not match header length [6] on: [注射用胸腺肽_5, ST四环]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:19:14 ERROR DataLoaderImpl:651 - Could not process source record [[注射用胸腺肽_5, ST四环]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [2] does not match header length [6] on: [注射用胸腺肽_5, ST四环]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:19:14 DEBUG Reporter:69 - Input queue [生产厂商] throughput is [7713.086695400372] items/s
+2018-04-20 12:19:14 DEBUG Reporter:69 - Input queue [药物节点] throughput is [5228.445941123063] items/s
+2018-04-20 12:19:14 DEBUG Reporter:69 - Input queue [药品说明书] throughput is [6053.565946851265] items/s
+2018-04-20 12:19:14 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [63999.16565663518] items/s
+2018-04-20 12:19:14 DEBUG Reporter:70 - Input queue [相关文献节点] has [140] entries
+2018-04-20 12:19:14 DEBUG Reporter:120 - query times 3: p50 4809.0µs, p80 4809.0µs, p90 4809.0µs, p95 4809.0µs, p99 4809.0µs, p99.9 4809.0µs, p99.99 4809.0µs
+2018-04-20 12:19:14 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: [                  <div class=]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:19:14 ERROR DataLoaderImpl:651 - Could not process source record [[                  <div class=]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: [                  <div class=]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:19:15 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [33229.39533228991] items/s
+2018-04-20 12:19:15 INFO  DataLoaderImpl:210 - Scheduling [药物_成份] for reading
+2018-04-20 12:19:15 INFO  DataLoaderImpl:210 - Scheduling [药物_疾病] for reading
+2018-04-20 12:19:15 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 12:19:15 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 12:19:16 INFO  DataLoaderImpl:210 - Scheduling [批准文号] for reading
+2018-04-20 12:19:16 DEBUG Reporter:69 - Input queue [药物_成份] throughput is [12634.218089593416] items/s
+2018-04-20 12:19:16 DEBUG Reporter:69 - Input queue [禁忌] throughput is [28934.284090665547] items/s
+2018-04-20 12:19:16 DEBUG Reporter:69 - Input queue [药物_疾病] throughput is [42994.7150100895] items/s
+2018-04-20 12:19:16 DEBUG Reporter:69 - Input queue [批准文号] throughput is [157322.63638079492] items/s
+2018-04-20 12:19:16 DEBUG Reporter:70 - Input queue [批准文号] has [10000] entries
+2018-04-20 12:19:16 INFO  DataLoaderImpl:210 - Scheduling [药物_说明书] for reading
+2018-04-20 12:19:16 INFO  DataLoaderImpl:210 - Scheduling [药物_相关文献] for reading
+2018-04-20 12:19:16 DEBUG Cluster:1654 - Shutting down
+2018-04-20 12:19:16 DEBUG Connection:684 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closing connection
+2018-04-20 12:19:16 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2018-04-20 12:19:16 DEBUG Connection:684 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closing connection
+2018-04-20 12:19:16 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2018-04-20 12:19:17 DEBUG Reporter:69 - Input queue [药物_说明书] throughput is [4274.532818432955] items/s
+2018-04-20 12:19:17 DEBUG Reporter:69 - Input queue [药物_相关文献] throughput is [84536.77266755143] items/s
+2018-04-20 12:19:17 DEBUG Reporter:69 - Input queue [批准文号] throughput is [41916.98334248165] items/s
+2018-04-20 12:19:19 DEBUG PoolThreadCache:81 - Freed 21 thread-local buffer(s) from thread: cluster2-nio-worker-0
+2018-04-20 12:19:19 DEBUG PoolThreadCache:81 - Freed 9 thread-local buffer(s) from thread: cluster2-nio-worker-2
+2018-04-20 12:19:19 ERROR Executable:205 - Encountered error while loading
+com.datastax.dsegraphloader.exception.LoadingException: There were exceptions in the preparation phase, and the loader is configured to abort on load, check the log for details
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl.execute(DataLoaderImpl.java:281)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderBuilder.execute(DataLoaderBuilder.java:111)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:106)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:52)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:203)
+2018-04-20 12:22:10 DEBUG Executable:82 - Setting cluster builder: com.datastax.dsegraphloader.api.ClusterBuilder@3d921e20
+2018-04-20 12:22:10 DEBUG SystemProperties:23 - com.datastax.driver.NEW_NODE_DELAY_SECONDS is undefined, using default value 1
+2018-04-20 12:22:10 DEBUG SystemProperties:23 - com.datastax.driver.NOTIF_LOCK_TIMEOUT_SECONDS is undefined, using default value 60
+2018-04-20 12:22:10 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2018-04-20 12:22:11 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2018-04-20 12:22:11 DEBUG SystemProperties:23 - com.datastax.driver.NON_BLOCKING_EXECUTOR_SIZE is undefined, using default value 4
+2018-04-20 12:22:11 DEBUG Cluster:1397 - Starting new cluster with contact points [/192.168.2.4:9042]
+2018-04-20 12:22:11 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2018-04-20 12:22:11 DEBUG PlatformDependent0:76 - java.nio.Buffer.address: available
+2018-04-20 12:22:11 DEBUG PlatformDependent0:76 - sun.misc.Unsafe.theUnsafe: available
+2018-04-20 12:22:11 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2018-04-20 12:22:11 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: true
+2018-04-20 12:22:11 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-04-20 12:22:11 DEBUG PlatformDependent:76 - Java version: 8
+2018-04-20 12:22:11 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2018-04-20 12:22:11 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2018-04-20 12:22:11 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2018-04-20 12:22:11 DEBUG PlatformDependent:71 - Javassist: unavailable
+2018-04-20 12:22:11 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2018-04-20 12:22:11 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: /tmp
+2018-04-20 12:22:11 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-04-20 12:22:11 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2018-04-20 12:22:11 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 2058354688 bytes
+2018-04-20 12:22:11 DEBUG SystemProperties:39 - com.datastax.driver.FORCE_NIO is undefined, using default value false
+2018-04-20 12:22:11 WARN  NettyUtil:64 - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2018-04-20 12:22:11 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2018-04-20 12:22:11 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2018-04-20 12:22:11 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-04-20 12:22:11 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2018-04-20 12:22:11 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2018-04-20 12:22:11 DEBUG SystemProperties:39 - com.datastax.driver.EXTENDED_PEER_CHECK is undefined, using default value true
+2018-04-20 12:22:11 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 1
+2018-04-20 12:22:11 DEBUG SystemProperties:39 - com.datastax.driver.DISABLE_COALESCING is undefined, using default value false
+2018-04-20 12:22:11 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2018-04-20 12:22:11 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2018-04-20 12:22:11 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2018-04-20 12:22:11 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2018-04-20 12:22:11 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2018-04-20 12:22:11 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-04-20 12:22:11 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2018-04-20 12:22:11 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2018-04-20 12:22:11 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-04-20 12:22:11 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-04-20 12:22:11 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0xef1bf5c81180f857 (took 0 ms)
+2018-04-20 12:22:11 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: unpooled
+2018-04-20 12:22:11 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-04-20 12:22:11 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-04-20 12:22:11 DEBUG Connection:159 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:22:11 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacity.default: 262144
+2018-04-20 12:22:11 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2018-04-20 12:22:11 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2018-04-20 12:22:11 DEBUG SystemProperties:23 - com.datastax.driver.NATIVE_TRANSPORT_MAX_FRAME_SIZE_IN_MB is undefined, using default value 256
+2018-04-20 12:22:11 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:22:11 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2018-04-20 12:22:11 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2018-04-20 12:22:11 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2018-04-20 12:22:11 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 0 milliseconds
+2018-04-20 12:22:11 DEBUG STATES:174 - [Control connection] established to /192.168.2.4:9042
+2018-04-20 12:22:11 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'SearchGraphAnalytics' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2018-04-20 12:22:11 INFO  Cluster:1549 - New Cassandra host /192.168.2.4:9042 added
+2018-04-20 12:22:11 DEBUG SystemProperties:39 - com.datastax.driver.CHECK_IO_DEADLOCKS is undefined, using default value true
+2018-04-20 12:22:11 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 2
+2018-04-20 12:22:11 DEBUG Connection:159 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:22:11 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:22:11 DEBUG HostConnectionPool:143 - Created connection pool to host /192.168.2.4:9042 (1 connections needed, 1 successfully opened)
+2018-04-20 12:22:11 DEBUG Session:385 - Added connection pool for /192.168.2.4:9042
+2018-04-20 12:22:11 DEBUG Cluster:1654 - Shutting down
+2018-04-20 12:22:11 DEBUG Connection:684 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closing connection
+2018-04-20 12:22:11 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2018-04-20 12:22:12 DEBUG Connection:684 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closing connection
+2018-04-20 12:22:12 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2018-04-20 12:22:14 DEBUG PoolThreadCache:81 - Freed 7 thread-local buffer(s) from thread: cluster1-nio-worker-2
+2018-04-20 12:22:14 DEBUG PoolThreadCache:81 - Freed 25 thread-local buffer(s) from thread: cluster1-nio-worker-0
+2018-04-20 12:22:14 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2018-04-20 12:22:14 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2018-04-20 12:22:14 WARN  CodecRegistry:319 - Ignoring codec LineStringCodec ['org.apache.cassandra.db.marshal.LineStringType' <-> com.datastax.driver.dse.geometry.LineString] because it collides with previously registered codec LineStringCodec ['org.apache.cassandra.db.marshal.LineStringType' <-> com.datastax.driver.dse.geometry.LineString]
+2018-04-20 12:22:14 WARN  CodecRegistry:319 - Ignoring codec PointCodec ['org.apache.cassandra.db.marshal.PointType' <-> com.datastax.driver.dse.geometry.Point] because it collides with previously registered codec PointCodec ['org.apache.cassandra.db.marshal.PointType' <-> com.datastax.driver.dse.geometry.Point]
+2018-04-20 12:22:14 WARN  CodecRegistry:319 - Ignoring codec PolygonCodec ['org.apache.cassandra.db.marshal.PolygonType' <-> com.datastax.driver.dse.geometry.Polygon] because it collides with previously registered codec PolygonCodec ['org.apache.cassandra.db.marshal.PolygonType' <-> com.datastax.driver.dse.geometry.Polygon]
+2018-04-20 12:22:14 DEBUG GroovyScriptExecutor:118 - Complete loading script: 
+[1	]  // DATA INPUT
+[2	]  // 更新时间：2018年04月12日13:51:02
+[3	]  
+[4	]  inputfiledir = 'data'
+[5	]  
+[6	]  drugs = inputfiledir+'/药物节点'
+[7	]  manufacturers = inputfiledir+'/生产厂商'
+[8	]  components = inputfiledir+'/药物_成份'
+[9	]  diseases = inputfiledir+'/药物_疾病'
+[10	]  avoids = inputfiledir+'/禁忌'
+[11	]  approval_nums = inputfiledir+'/批准文号'
+[12	]  dispensatories = inputfiledir+'/药品说明书'
+[13	]  drug_disp = inputfiledir+'/药物_说明书'
+[14	]  documents = inputfiledir+'/相关文献节点'
+[15	]  drug_doc = inputfiledir+'/药物_相关文献'
+[16	]  
+[17	]  f1 = File.directory(drugs).delimiter('|').header('name','drug_category')
+[18	]  f2 = File.directory(manufacturers).delimiter('|').header('name')
+[19	]  f3 = File.directory(components).delimiter('|').header('aname','bname')
+[20	]  f4 = File.directory(diseases).delimiter('|').header('aname','bname')
+[21	]  f5 = File.directory(avoids).delimiter('|').header('aname','bname')
+[22	]  f6 = File.directory(approval_nums).delimiter('|').header('aname','bname', 'approval_number')
+[23	]  f7 = File.directory(dispensatories).delimiter('|').header("name", "approval_number", "component", "character", "indication", "manufacturer", "main_cure", "effect_type", "untoward_reaction", "taboo", "standard", "product_name", "usage", "notes", "storage", "drug_interactions", "pharmacology", "overdose", "warning", "for_olds", "for_children", "dosage_form", "validity", "specification", "for_pregnant", "revision_date", "pharmacokinetics", "packaging", "URL")
+[24	]  f8 = File.directory(drug_disp).delimiter('|').header('aname','bname')
+[25	]  f9 = File.directory(documents).delimiter('|').header("doc_id", "title", "medicine", "content", "other", "URL")
+[26	]  f10 = File.directory(drug_doc).delimiter('|').header('name','doc_id')
+[27	]  
+[28	]  // 药物节点信息
+[29	]  load(f1).asVertices {
+[30	]      label "drug"
+[31	]      key "name"
+[32	]  }
+[33	]  
+[34	]  // 生产厂商
+[35	]  load(f2).asVertices {
+[36	]      label "manufacturer"
+[37	]      key "name"
+[38	]  }
+[39	]  
+[40	]  // 说明书节点信息
+[41	]  load(f7).asVertices {
+[42	]      label "dispensatory"
+[43	]      key "name"
+[44	]  }
+[45	]  
+[46	]  // 相关文献节点
+[47	]  load(f9).asVertices {
+[48	]      label "document"
+[49	]      key "doc_id"
+[50	]  }
+[51	]  
+[52	]  // 药物——成份
+[53	]  load(f3).asEdges {
+[54	]      label "含有"
+[55	]      outV "aname", {
+[56	]          label "drug"
+[57	]          key "name"
+[58	]      }
+[59	]      inV "bname", {
+[60	]          label "component"
+[61	]          key "name"
+[62	]      }
+[63	]  }
+[64	]  
+[65	]  // 药物——疾病
+[66	]  load(f4).asEdges {
+[67	]      label "治疗"
+[68	]      outV "aname", {
+[69	]          label "drug"
+[70	]          key "name"
+[71	]      }
+[72	]      inV "bname", {
+[73	]          label "disease"
+[74	]          key "name"
+[75	]      }
+[76	]  }
+[77	]  
+[78	]  
+[79	]  // 药物——禁忌——药物
+[80	]  load(f5).asEdges {
+[81	]      label "禁忌"
+[82	]      outV "aname", {
+[83	]          label "drug"
+[84	]          key "name"
+[85	]      }
+[86	]      inV "bname", {
+[87	]          label "drug"
+[88	]          key "name"
+[89	]      }
+[90	]  }
+[91	]  
+[92	]  // 禁忌（反向）
+[93	]  load(f5).asEdges {
+[94	]      label "禁忌"
+[95	]      outV "bname", {
+[96	]          label "drug"
+[97	]          key "name"
+[98	]      }
+[99	]      inV "aname", {
+[100	]          label "drug"
+[101	]          key "name"
+[102	]      }
+[103	]  }
+[104	]  
+[105	]  // 药物——生产厂商——生产厂商
+[106	]  load(f6).asEdges {
+[107	]      label "生产厂商"
+[108	]      outV "aname", {
+[109	]          label "drug"
+[110	]          key "name"
+[111	]      }
+[112	]      inV "bname", {
+[113	]          label "manufacturer"
+[114	]          key "name"
+[115	]      }
+[116	]  }
+[117	]  
+[118	]  // 药物——说明书
+[119	]  load(f8).asEdges {
+[120	]      label "说明书"
+[121	]      outV "aname", {
+[122	]          label "drug"
+[123	]          key "name"
+[124	]      }
+[125	]      inV "bname", {
+[126	]          label "dispensatory"
+[127	]          key "name"
+[128	]      }
+[129	]  }
+[130	]  
+[131	]  // 药物——说明书
+[132	]  load(f10).asEdges {
+[133	]      label "相关文献"
+[134	]      outV "name", {
+[135	]          label "drug"
+[136	]          key "name"
+[137	]      }
+[138	]      inV "doc_id", {
+[139	]          label "document"
+[140	]          key "doc_id"
+[141	]      }
+[142	]  }
+
+2018-04-20 12:22:14 DEBUG Cluster:1397 - Starting new cluster with contact points [/192.168.2.4:9042]
+2018-04-20 12:22:14 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 1
+2018-04-20 12:22:14 DEBUG Connection:159 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:22:14 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:22:14 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2018-04-20 12:22:14 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2018-04-20 12:22:14 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2018-04-20 12:22:14 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 0 milliseconds
+2018-04-20 12:22:14 DEBUG STATES:174 - [Control connection] established to /192.168.2.4:9042
+2018-04-20 12:22:14 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'SearchGraphAnalytics' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2018-04-20 12:22:14 INFO  Cluster:1549 - New Cassandra host /192.168.2.4:9042 added
+2018-04-20 12:22:15 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 2
+2018-04-20 12:22:15 DEBUG Connection:159 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:22:15 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:22:15 DEBUG HostConnectionPool:143 - Created connection pool to host /192.168.2.4:9042 (1 connections needed, 1 successfully opened)
+2018-04-20 12:22:15 DEBUG Session:385 - Added connection pool for /192.168.2.4:9042
+2018-04-20 12:22:15 DEBUG GraphJsonUtils:82 - JSR 310 found on the classpath, registering serializers for java.time temporal types
+2018-04-20 12:22:15 INFO  DataLoaderImpl:239 - Initializing tasks with [1] read threads and [2] loader threads
+2018-04-20 12:22:15 INFO  DataLoaderImpl:240 - Initializing tasks with [6] edge loading threads and [2] vertex loading threads
+2018-04-20 12:22:15 INFO  DataLoaderImpl:210 - Scheduling [药物节点] for reading
+2018-04-20 12:22:15 INFO  DataLoaderImpl:210 - Scheduling [生产厂商] for reading
+2018-04-20 12:22:15 INFO  DataLoaderImpl:210 - Scheduling [药品说明书] for reading
+2018-04-20 12:22:15 INFO  DataLoaderImpl:210 - Scheduling [相关文献节点] for reading
+2018-04-20 12:22:15 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: []
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:22:15 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [2] does not match header length [6] on: [注射用胸腺肽_5, ST四环]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:22:15 ERROR DataLoaderImpl:651 - Could not process source record [[注射用胸腺肽_5, ST四环]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [2] does not match header length [6] on: [注射用胸腺肽_5, ST四环]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:22:15 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [5] does not match header length [6] on: [拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:22:15 ERROR DataLoaderImpl:651 - Could not process source record [[]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: []
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:22:15 ERROR DataLoaderImpl:651 - Could not process source record [[拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [5] does not match header length [6] on: [拟申请恢复生产, 注射用胸腺肽, ST四环今日公告，2010年6月，北京市药监局对公司生产的进行立案稽查，两次对2009年前生产的该产品进行抽检，两批2008年和2009年生产的胸腺肽α1在检查中不符合国家标准的规定。根据检出的问题，公司停止了胸腺肽的生产销售，对已售的产品进, 上海证券报  2011-09-21, http://epub.cnki.net/grid2008/brief/detailj.aspx?filename=SHZJ20110921F081&dbname=CCNDLAST2011]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:22:15 ERROR DataLoaderImpl:528 - Error while executing on transformer (do you have any global variables in your mapping script?), aborting load
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: [                  <div class=]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:22:15 ERROR DataLoaderImpl:651 - Could not process source record [[                  <div class=]] on load [相关文献节点]
+java.lang.IllegalArgumentException: Row length [1] does not match header length [6] on: [                  <div class=]
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:59)
+	at com.datastax.dsegraphloader.impl.input.file.BasicRowFileInput$1.apply(BasicRowFileInput.java:56)
+	at com.datastax.dsegraphloader.impl.input.AbstractDataInputSimpleTransform.lambda$getDataTransformer$0(AbstractDataInputSimpleTransform.java:17)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$LoaderCallable.call(DataLoaderImpl.java:523)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl$DelegatingLoaderCallable.run(DataLoaderImpl.java:461)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 12:22:15 DEBUG Reporter:69 - Input queue [生产厂商] throughput is [6417.425407954961] items/s
+2018-04-20 12:22:15 DEBUG Reporter:69 - Input queue [药物节点] throughput is [4469.324213218511] items/s
+2018-04-20 12:22:15 DEBUG Reporter:69 - Input queue [药品说明书] throughput is [4913.057243753983] items/s
+2018-04-20 12:22:15 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [70541.0483147098] items/s
+2018-04-20 12:22:15 DEBUG Reporter:70 - Input queue [相关文献节点] has [20] entries
+2018-04-20 12:22:15 DEBUG Reporter:120 - query times 3: p50 8020.0µs, p80 8020.0µs, p90 8020.0µs, p95 8020.0µs, p99 8020.0µs, p99.9 8020.0µs, p99.99 8020.0µs
+2018-04-20 12:22:16 INFO  DataLoaderImpl:210 - Scheduling [药物_成份] for reading
+2018-04-20 12:22:16 INFO  DataLoaderImpl:210 - Scheduling [药物_疾病] for reading
+2018-04-20 12:22:16 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 12:22:16 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 12:22:16 INFO  DataLoaderImpl:210 - Scheduling [批准文号] for reading
+2018-04-20 12:22:16 DEBUG Reporter:69 - Input queue [药物_成份] throughput is [15633.919072136428] items/s
+2018-04-20 12:22:16 DEBUG Reporter:69 - Input queue [禁忌] throughput is [30940.93527025679] items/s
+2018-04-20 12:22:16 DEBUG Reporter:69 - Input queue [药物_疾病] throughput is [53463.77277172694] items/s
+2018-04-20 12:22:16 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [22786.649051221462] items/s
+2018-04-20 12:22:16 DEBUG Reporter:69 - Input queue [批准文号] throughput is [200020.97075167994] items/s
+2018-04-20 12:22:16 DEBUG Reporter:70 - Input queue [批准文号] has [10000] entries
+2018-04-20 12:22:17 INFO  DataLoaderImpl:210 - Scheduling [药物_说明书] for reading
+2018-04-20 12:22:17 INFO  DataLoaderImpl:210 - Scheduling [药物_相关文献] for reading
+2018-04-20 12:22:17 DEBUG Cluster:1654 - Shutting down
+2018-04-20 12:22:17 DEBUG Connection:684 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closing connection
+2018-04-20 12:22:17 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2018-04-20 12:22:17 DEBUG Connection:684 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closing connection
+2018-04-20 12:22:17 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2018-04-20 12:22:17 DEBUG Reporter:69 - Input queue [药物_说明书] throughput is [2677.346983480251] items/s
+2018-04-20 12:22:17 DEBUG Reporter:69 - Input queue [药物_相关文献] throughput is [52769.43619763318] items/s
+2018-04-20 12:22:17 DEBUG Reporter:69 - Input queue [批准文号] throughput is [26677.715029101466] items/s
+2018-04-20 12:22:19 DEBUG PoolThreadCache:81 - Freed 9 thread-local buffer(s) from thread: cluster2-nio-worker-2
+2018-04-20 12:22:19 DEBUG PoolThreadCache:81 - Freed 26 thread-local buffer(s) from thread: cluster2-nio-worker-0
+2018-04-20 12:22:19 ERROR Executable:205 - Encountered error while loading
+com.datastax.dsegraphloader.exception.LoadingException: There were exceptions in the preparation phase, and the loader is configured to abort on load, check the log for details
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderImpl.execute(DataLoaderImpl.java:281)
+	at com.datastax.dsegraphloader.impl.loader.DataLoaderBuilder.execute(DataLoaderBuilder.java:111)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:106)
+	at com.datastax.dsegraphloader.cli.Executable.execute(Executable.java:52)
+	at com.datastax.dsegraphloader.cli.Executable.main(Executable.java:203)
+2018-04-20 12:36:19 DEBUG Executable:82 - Setting cluster builder: com.datastax.dsegraphloader.api.ClusterBuilder@3d921e20
+2018-04-20 12:36:19 DEBUG SystemProperties:23 - com.datastax.driver.NEW_NODE_DELAY_SECONDS is undefined, using default value 1
+2018-04-20 12:36:19 DEBUG SystemProperties:23 - com.datastax.driver.NOTIF_LOCK_TIMEOUT_SECONDS is undefined, using default value 60
+2018-04-20 12:36:19 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2018-04-20 12:36:19 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2018-04-20 12:36:19 DEBUG SystemProperties:23 - com.datastax.driver.NON_BLOCKING_EXECUTOR_SIZE is undefined, using default value 4
+2018-04-20 12:36:19 DEBUG Cluster:1397 - Starting new cluster with contact points [/192.168.2.4:9042]
+2018-04-20 12:36:19 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2018-04-20 12:36:19 DEBUG PlatformDependent0:76 - java.nio.Buffer.address: available
+2018-04-20 12:36:19 DEBUG PlatformDependent0:76 - sun.misc.Unsafe.theUnsafe: available
+2018-04-20 12:36:19 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2018-04-20 12:36:19 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: true
+2018-04-20 12:36:19 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-04-20 12:36:19 DEBUG PlatformDependent:76 - Java version: 8
+2018-04-20 12:36:19 DEBUG PlatformDependent:76 - -Dio.netty.noUnsafe: false
+2018-04-20 12:36:19 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2018-04-20 12:36:19 DEBUG PlatformDependent:76 - -Dio.netty.noJavassist: false
+2018-04-20 12:36:19 DEBUG PlatformDependent:71 - Javassist: unavailable
+2018-04-20 12:36:19 DEBUG PlatformDependent:71 - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2018-04-20 12:36:19 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: /tmp
+2018-04-20 12:36:19 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-04-20 12:36:19 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2018-04-20 12:36:19 DEBUG PlatformDependent:76 - io.netty.maxDirectMemory: 2058354688 bytes
+2018-04-20 12:36:19 DEBUG SystemProperties:39 - com.datastax.driver.FORCE_NIO is undefined, using default value false
+2018-04-20 12:36:19 WARN  NettyUtil:64 - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+2018-04-20 12:36:19 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 8
+2018-04-20 12:36:19 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2018-04-20 12:36:19 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-04-20 12:36:19 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2018-04-20 12:36:19 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.maxRecords: 4
+2018-04-20 12:36:19 DEBUG SystemProperties:39 - com.datastax.driver.EXTENDED_PEER_CHECK is undefined, using default value true
+2018-04-20 12:36:19 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 1
+2018-04-20 12:36:19 DEBUG SystemProperties:39 - com.datastax.driver.DISABLE_COALESCING is undefined, using default value false
+2018-04-20 12:36:19 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 8
+2018-04-20 12:36:19 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 8
+2018-04-20 12:36:19 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2018-04-20 12:36:19 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2018-04-20 12:36:19 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2018-04-20 12:36:19 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-04-20 12:36:19 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2018-04-20 12:36:19 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2018-04-20 12:36:19 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-04-20 12:36:19 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-04-20 12:36:19 DEBUG ThreadLocalRandom:71 - -Dio.netty.initialSeedUniquifier: 0x46d589280c8fda36 (took 0 ms)
+2018-04-20 12:36:19 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: unpooled
+2018-04-20 12:36:19 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 65536
+2018-04-20 12:36:19 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-04-20 12:36:19 DEBUG Connection:159 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:36:19 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacity.default: 262144
+2018-04-20 12:36:19 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2018-04-20 12:36:19 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2018-04-20 12:36:19 DEBUG SystemProperties:23 - com.datastax.driver.NATIVE_TRANSPORT_MAX_FRAME_SIZE_IN_MB is undefined, using default value 256
+2018-04-20 12:36:19 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:36:19 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2018-04-20 12:36:19 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2018-04-20 12:36:20 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2018-04-20 12:36:20 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 1 milliseconds
+2018-04-20 12:36:20 DEBUG STATES:174 - [Control connection] established to /192.168.2.4:9042
+2018-04-20 12:36:20 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'SearchGraphAnalytics' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2018-04-20 12:36:20 INFO  Cluster:1549 - New Cassandra host /192.168.2.4:9042 added
+2018-04-20 12:36:20 DEBUG SystemProperties:39 - com.datastax.driver.CHECK_IO_DEADLOCKS is undefined, using default value true
+2018-04-20 12:36:20 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 2
+2018-04-20 12:36:20 DEBUG Connection:159 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:36:20 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:36:20 DEBUG HostConnectionPool:143 - Created connection pool to host /192.168.2.4:9042 (1 connections needed, 1 successfully opened)
+2018-04-20 12:36:20 DEBUG Session:385 - Added connection pool for /192.168.2.4:9042
+2018-04-20 12:36:20 DEBUG Cluster:1654 - Shutting down
+2018-04-20 12:36:20 DEBUG Connection:684 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closing connection
+2018-04-20 12:36:20 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2018-04-20 12:36:20 DEBUG Connection:684 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closing connection
+2018-04-20 12:36:20 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2018-04-20 12:36:22 DEBUG PoolThreadCache:81 - Freed 7 thread-local buffer(s) from thread: cluster1-nio-worker-2
+2018-04-20 12:36:22 DEBUG PoolThreadCache:81 - Freed 23 thread-local buffer(s) from thread: cluster1-nio-worker-0
+2018-04-20 12:36:22 DEBUG SystemProperties:39 - com.datastax.driver.USE_NATIVE_CLOCK is undefined, using default value true
+2018-04-20 12:36:22 INFO  ClockFactory:43 - Using native clock to generate timestamps.
+2018-04-20 12:36:22 WARN  CodecRegistry:319 - Ignoring codec LineStringCodec ['org.apache.cassandra.db.marshal.LineStringType' <-> com.datastax.driver.dse.geometry.LineString] because it collides with previously registered codec LineStringCodec ['org.apache.cassandra.db.marshal.LineStringType' <-> com.datastax.driver.dse.geometry.LineString]
+2018-04-20 12:36:22 WARN  CodecRegistry:319 - Ignoring codec PointCodec ['org.apache.cassandra.db.marshal.PointType' <-> com.datastax.driver.dse.geometry.Point] because it collides with previously registered codec PointCodec ['org.apache.cassandra.db.marshal.PointType' <-> com.datastax.driver.dse.geometry.Point]
+2018-04-20 12:36:22 WARN  CodecRegistry:319 - Ignoring codec PolygonCodec ['org.apache.cassandra.db.marshal.PolygonType' <-> com.datastax.driver.dse.geometry.Polygon] because it collides with previously registered codec PolygonCodec ['org.apache.cassandra.db.marshal.PolygonType' <-> com.datastax.driver.dse.geometry.Polygon]
+2018-04-20 12:36:22 DEBUG GroovyScriptExecutor:118 - Complete loading script: 
+[1	]  // DATA INPUT
+[2	]  // 更新时间：2018年04月12日13:51:02
+[3	]  
+[4	]  inputfiledir = 'data'
+[5	]  
+[6	]  drugs = inputfiledir+'/药物节点'
+[7	]  manufacturers = inputfiledir+'/生产厂商'
+[8	]  components = inputfiledir+'/药物_成份'
+[9	]  diseases = inputfiledir+'/药物_疾病'
+[10	]  avoids = inputfiledir+'/禁忌'
+[11	]  approval_nums = inputfiledir+'/批准文号'
+[12	]  dispensatories = inputfiledir+'/药品说明书'
+[13	]  drug_disp = inputfiledir+'/药物_说明书'
+[14	]  documents = inputfiledir+'/相关文献节点'
+[15	]  drug_doc = inputfiledir+'/药物_相关文献'
+[16	]  
+[17	]  f1 = File.directory(drugs).delimiter('|').header('name','drug_category')
+[18	]  f2 = File.directory(manufacturers).delimiter('|').header('name')
+[19	]  f3 = File.directory(components).delimiter('|').header('aname','bname')
+[20	]  f4 = File.directory(diseases).delimiter('|').header('aname','bname')
+[21	]  f5 = File.directory(avoids).delimiter('|').header('aname','bname')
+[22	]  f6 = File.directory(approval_nums).delimiter('|').header('aname','bname', 'approval_number')
+[23	]  f7 = File.directory(dispensatories).delimiter('|').header("name", "approval_number", "component", "character", "indication", "manufacturer", "main_cure", "effect_type", "untoward_reaction", "taboo", "standard", "product_name", "usage", "notes", "storage", "drug_interactions", "pharmacology", "overdose", "warning", "for_olds", "for_children", "dosage_form", "validity", "specification", "for_pregnant", "revision_date", "pharmacokinetics", "packaging", "URL")
+[24	]  f8 = File.directory(drug_disp).delimiter('|').header('aname','bname')
+[25	]  f9 = File.directory(documents).delimiter('|').header("doc_id", "title", "medicine", "content", "other", "URL")
+[26	]  f10 = File.directory(drug_doc).delimiter('|').header('name','doc_id')
+[27	]  
+[28	]  // 药物节点信息
+[29	]  load(f1).asVertices {
+[30	]      label "drug"
+[31	]      key "name"
+[32	]  }
+[33	]  
+[34	]  // 生产厂商
+[35	]  load(f2).asVertices {
+[36	]      label "manufacturer"
+[37	]      key "name"
+[38	]  }
+[39	]  
+[40	]  // 说明书节点信息
+[41	]  load(f7).asVertices {
+[42	]      label "dispensatory"
+[43	]      key "name"
+[44	]  }
+[45	]  
+[46	]  // 相关文献节点
+[47	]  load(f9).asVertices {
+[48	]      label "document"
+[49	]      key "doc_id"
+[50	]  }
+[51	]  
+[52	]  // 药物——成份
+[53	]  load(f3).asEdges {
+[54	]      label "含有"
+[55	]      outV "aname", {
+[56	]          label "drug"
+[57	]          key "name"
+[58	]      }
+[59	]      inV "bname", {
+[60	]          label "component"
+[61	]          key "name"
+[62	]      }
+[63	]  }
+[64	]  
+[65	]  // 药物——疾病
+[66	]  load(f4).asEdges {
+[67	]      label "治疗"
+[68	]      outV "aname", {
+[69	]          label "drug"
+[70	]          key "name"
+[71	]      }
+[72	]      inV "bname", {
+[73	]          label "disease"
+[74	]          key "name"
+[75	]      }
+[76	]  }
+[77	]  
+[78	]  
+[79	]  // 药物——禁忌——药物
+[80	]  load(f5).asEdges {
+[81	]      label "禁忌"
+[82	]      outV "aname", {
+[83	]          label "drug"
+[84	]          key "name"
+[85	]      }
+[86	]      inV "bname", {
+[87	]          label "drug"
+[88	]          key "name"
+[89	]      }
+[90	]  }
+[91	]  
+[92	]  // 禁忌（反向）
+[93	]  load(f5).asEdges {
+[94	]      label "禁忌"
+[95	]      outV "bname", {
+[96	]          label "drug"
+[97	]          key "name"
+[98	]      }
+[99	]      inV "aname", {
+[100	]          label "drug"
+[101	]          key "name"
+[102	]      }
+[103	]  }
+[104	]  
+[105	]  // 药物——生产厂商——生产厂商
+[106	]  load(f6).asEdges {
+[107	]      label "生产厂商"
+[108	]      outV "aname", {
+[109	]          label "drug"
+[110	]          key "name"
+[111	]      }
+[112	]      inV "bname", {
+[113	]          label "manufacturer"
+[114	]          key "name"
+[115	]      }
+[116	]  }
+[117	]  
+[118	]  // 药物——说明书
+[119	]  load(f8).asEdges {
+[120	]      label "说明书"
+[121	]      outV "aname", {
+[122	]          label "drug"
+[123	]          key "name"
+[124	]      }
+[125	]      inV "bname", {
+[126	]          label "dispensatory"
+[127	]          key "name"
+[128	]      }
+[129	]  }
+[130	]  
+[131	]  // 药物——说明书
+[132	]  load(f10).asEdges {
+[133	]      label "相关文献"
+[134	]      outV "name", {
+[135	]          label "drug"
+[136	]          key "name"
+[137	]      }
+[138	]      inV "doc_id", {
+[139	]          label "document"
+[140	]          key "doc_id"
+[141	]      }
+[142	]  }
+
+2018-04-20 12:36:23 DEBUG Cluster:1397 - Starting new cluster with contact points [/192.168.2.4:9042]
+2018-04-20 12:36:23 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 1
+2018-04-20 12:36:23 DEBUG Connection:159 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:36:23 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:36:23 DEBUG ControlConnection:532 - [Control connection] Refreshing node list and token map
+2018-04-20 12:36:23 DEBUG ControlConnection:266 - [Control connection] Refreshing schema
+2018-04-20 12:36:23 DEBUG ReplicationStrategy$NetworkTopologyStrategy:114 - Computing token to replica map for keyspace: spark_system.
+2018-04-20 12:36:23 DEBUG ReplicationStrategy$NetworkTopologyStrategy:202 - Token to replica map computation for keyspace spark_system completed in 0 milliseconds
+2018-04-20 12:36:23 DEBUG STATES:174 - [Control connection] established to /192.168.2.4:9042
+2018-04-20 12:36:23 INFO  DCAwareRoundRobinPolicy:86 - Using data-center name 'SearchGraphAnalytics' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+2018-04-20 12:36:23 INFO  Cluster:1549 - New Cassandra host /192.168.2.4:9042 added
+2018-04-20 12:36:23 DEBUG STATES:79 - [/192.168.2.4:9042] preparing to open 1 new connections, total = 2
+2018-04-20 12:36:23 DEBUG Connection:159 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Connection established, initializing transport
+2018-04-20 12:36:23 DEBUG STATES:311 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=false] Transport initialized, connection ready
+2018-04-20 12:36:23 DEBUG HostConnectionPool:143 - Created connection pool to host /192.168.2.4:9042 (1 connections needed, 1 successfully opened)
+2018-04-20 12:36:23 DEBUG Session:385 - Added connection pool for /192.168.2.4:9042
+2018-04-20 12:36:23 DEBUG GraphJsonUtils:82 - JSR 310 found on the classpath, registering serializers for java.time temporal types
+2018-04-20 12:36:23 INFO  DataLoaderImpl:239 - Initializing tasks with [1] read threads and [2] loader threads
+2018-04-20 12:36:23 INFO  DataLoaderImpl:240 - Initializing tasks with [6] edge loading threads and [2] vertex loading threads
+2018-04-20 12:36:23 INFO  DataLoaderImpl:210 - Scheduling [药物节点] for reading
+2018-04-20 12:36:23 INFO  DataLoaderImpl:210 - Scheduling [生产厂商] for reading
+2018-04-20 12:36:23 INFO  DataLoaderImpl:210 - Scheduling [药品说明书] for reading
+2018-04-20 12:36:24 INFO  DataLoaderImpl:210 - Scheduling [相关文献节点] for reading
+2018-04-20 12:36:24 DEBUG Reporter:69 - Input queue [生产厂商] throughput is [6828.852566329638] items/s
+2018-04-20 12:36:24 DEBUG Reporter:69 - Input queue [药物节点] throughput is [4677.198162364976] items/s
+2018-04-20 12:36:24 DEBUG Reporter:69 - Input queue [药品说明书] throughput is [5240.990523481544] items/s
+2018-04-20 12:36:24 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [46794.62951775886] items/s
+2018-04-20 12:36:24 DEBUG Reporter:120 - query times 3: p50 4648.0µs, p80 4648.0µs, p90 4648.0µs, p95 4648.0µs, p99 4648.0µs, p99.9 4648.0µs, p99.99 4648.0µs
+2018-04-20 12:36:25 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [32802.91739818621] items/s
+2018-04-20 12:36:25 INFO  DataLoaderImpl:210 - Scheduling [药物_成份] for reading
+2018-04-20 12:36:25 INFO  DataLoaderImpl:210 - Scheduling [药物_疾病] for reading
+2018-04-20 12:36:25 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 12:36:25 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 12:36:25 INFO  DataLoaderImpl:210 - Scheduling [批准文号] for reading
+2018-04-20 12:36:26 INFO  DataLoaderImpl:210 - Scheduling [药物_说明书] for reading
+2018-04-20 12:36:26 DEBUG Reporter:69 - Input queue [药物_成份] throughput is [11206.616892039003] items/s
+2018-04-20 12:36:26 DEBUG Reporter:69 - Input queue [药物_说明书] throughput is [10158.128305019189] items/s
+2018-04-20 12:36:26 DEBUG Reporter:69 - Input queue [禁忌] throughput is [11806.272431232077] items/s
+2018-04-20 12:36:26 DEBUG Reporter:69 - Input queue [药物_疾病] throughput is [34377.79259472921] items/s
+2018-04-20 12:36:26 DEBUG Reporter:69 - Input queue [批准文号] throughput is [102967.30250256651] items/s
+2018-04-20 12:36:26 INFO  DataLoaderImpl:210 - Scheduling [药物_相关文献] for reading
+2018-04-20 12:36:27 INFO  DataLoaderImpl:301 - The following schema registrations will be added.
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[component] hasIncidence(propertyKey[name])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[drug] hasIncidence(propertyKey[name])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[drug] hasIncidence(propertyKey[drug_category])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[approval_number])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[for_olds])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[document] hasIncidence(propertyKey[other])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[storage])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[indication])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[drug] hasIncidence(edgeLabel[含有]) vertexLabel[component]
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[specification])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[document] hasIncidence(propertyKey[title])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[document] hasIncidence(propertyKey[URL])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[for_children])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[document] hasIncidence(propertyKey[content])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[taboo])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[manufacturer] hasIncidence(propertyKey[name])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[usage])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[component])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[notes])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[main_cure])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[for_pregnant])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[character])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[pharmacokinetics])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[validity])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[drug_interactions])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[drug] hasIncidence(edgeLabel[治疗]) vertexLabel[disease]
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[untoward_reaction])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[effect_type])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[drug] hasIncidence(edgeLabel[相关文献]) vertexLabel[document]
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[overdose])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[document] hasIncidence(propertyKey[medicine])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[URL])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[manufacturer])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[drug] hasIncidence(edgeLabel[生产厂商]) vertexLabel[manufacturer]
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[drug] hasIncidence(edgeLabel[禁忌]) vertexLabel[drug]
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[revision_date])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[packaging])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[document] hasIncidence(propertyKey[doc_id])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[warning])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[product_name])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: edgeLabel[生产厂商] hasIncidence(propertyKey[approval_number])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[disease] hasIncidence(propertyKey[name])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[standard])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[pharmacology])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[dosage_form])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[drug] hasIncidence(edgeLabel[说明书]) vertexLabel[dispensatory]
+2018-04-20 12:36:27 INFO  DataLoaderImpl:303 - Adding schema registration: vertexLabel[dispensatory] hasIncidence(propertyKey[name])
+2018-04-20 12:36:27 INFO  DataLoaderImpl:306 - Sum of loading statistics: LoadStatistic.Record[presentVertexCount=0,maybeVertexCount=368317,absentVertexCount=0,edgeCount=158786,vertexPropertyCount=619398,elementPropertyCount=57218]
+2018-04-20 12:36:27 INFO  DataLoaderImpl:308 - Max load for weight [VERTEX (Sum of vertex counts)]: LoadStatistic.Record[presentVertexCount=0,maybeVertexCount=200,absentVertexCount=0,edgeCount=100,vertexPropertyCount=200,elementPropertyCount=0]
+2018-04-20 12:36:27 INFO  DataLoaderImpl:308 - Max load for weight [TOTAL (Sum of vertex, edge, and vertex-property counts)]: LoadStatistic.Record[presentVertexCount=0,maybeVertexCount=100,absentVertexCount=0,edgeCount=0,vertexPropertyCount=2251,elementPropertyCount=0]
+2018-04-20 12:36:27 DEBUG Reporter:69 - Input queue [药物_相关文献] throughput is [60939.45597756763] items/s
+2018-04-20 12:36:27 DEBUG Cluster:2381 - Received event EVENT UPDATED TABLE medicine_latest_system.shared_data, scheduling delivery
+2018-04-20 12:36:27 DEBUG Cluster:2381 - Received event EVENT UPDATED TABLE medicine_latest_system.shared_data, scheduling delivery
+2018-04-20 12:36:27 INFO  DataLoaderImpl:333 - The following schema changes were executed:
+schema.vertexLabel('component').properties('name').add()
+schema.vertexLabel('drug').properties('name').add()
+schema.vertexLabel('drug').properties('drug_category').add()
+schema.vertexLabel('dispensatory').properties('approval_number').add()
+schema.vertexLabel('dispensatory').properties('for_olds').add()
+schema.vertexLabel('document').properties('other').add()
+schema.vertexLabel('dispensatory').properties('storage').add()
+schema.vertexLabel('dispensatory').properties('indication').add()
+schema.edgeLabel('含有').connection('drug', 'component').add()
+schema.vertexLabel('dispensatory').properties('specification').add()
+schema.vertexLabel('document').properties('title').add()
+schema.vertexLabel('document').properties('URL').add()
+schema.vertexLabel('dispensatory').properties('for_children').add()
+schema.vertexLabel('document').properties('content').add()
+schema.vertexLabel('dispensatory').properties('taboo').add()
+schema.vertexLabel('manufacturer').properties('name').add()
+schema.vertexLabel('dispensatory').properties('usage').add()
+schema.vertexLabel('dispensatory').properties('component').add()
+schema.vertexLabel('dispensatory').properties('notes').add()
+schema.vertexLabel('dispensatory').properties('main_cure').add()
+schema.vertexLabel('dispensatory').properties('for_pregnant').add()
+schema.vertexLabel('dispensatory').properties('character').add()
+schema.vertexLabel('dispensatory').properties('pharmacokinetics').add()
+schema.vertexLabel('dispensatory').properties('validity').add()
+schema.vertexLabel('dispensatory').properties('drug_interactions').add()
+schema.edgeLabel('治疗').connection('drug', 'disease').add()
+schema.vertexLabel('dispensatory').properties('untoward_reaction').add()
+schema.vertexLabel('dispensatory').properties('effect_type').add()
+schema.edgeLabel('相关文献').connection('drug', 'document').add()
+schema.vertexLabel('dispensatory').properties('overdose').add()
+schema.vertexLabel('document').properties('medicine').add()
+schema.vertexLabel('dispensatory').properties('URL').add()
+schema.vertexLabel('dispensatory').properties('manufacturer').add()
+schema.edgeLabel('生产厂商').connection('drug', 'manufacturer').add()
+schema.edgeLabel('禁忌').connection('drug', 'drug').add()
+schema.vertexLabel('dispensatory').properties('revision_date').add()
+schema.vertexLabel('dispensatory').properties('packaging').add()
+schema.vertexLabel('document').properties('doc_id').add()
+schema.vertexLabel('dispensatory').properties('warning').add()
+schema.vertexLabel('dispensatory').properties('product_name').add()
+schema.edgeLabel('生产厂商').properties('approval_number').add()
+schema.vertexLabel('disease').properties('name').add()
+schema.vertexLabel('dispensatory').properties('standard').add()
+schema.vertexLabel('dispensatory').properties('pharmacology').add()
+schema.vertexLabel('dispensatory').properties('dosage_form').add()
+schema.edgeLabel('说明书').connection('drug', 'dispensatory').add()
+schema.vertexLabel('dispensatory').properties('name').add()
+
+2018-04-20 12:36:27 INFO  DataLoaderImpl:381 - Looking for vertexes in the following loads [药物节点, 生产厂商, 药品说明书, 相关文献节点, 药物_成份, 药物_疾病, 禁忌, 禁忌, 批准文号, 药物_说明书, 药物_相关文献]
+2018-04-20 12:36:27 INFO  DataLoaderImpl:239 - Initializing tasks with [1] read threads and [2] loader threads
+2018-04-20 12:36:27 INFO  DataLoaderImpl:240 - Initializing tasks with [6] edge loading threads and [2] vertex loading threads
+2018-04-20 12:36:27 INFO  DataLoaderImpl:210 - Scheduling [药物节点] for reading
+2018-04-20 12:36:28 DEBUG Reporter:69 - Input queue [药物节点] throughput is [4034.48707516527] items/s
+2018-04-20 12:36:28 DEBUG Reporter:70 - Input queue [药物节点] has [2170] entries
+2018-04-20 12:36:28 DEBUG Reporter:75 - Promoted 400 vertices to the persistent cache in 96ms avg put time: 0.24ms
+2018-04-20 12:36:28 DEBUG Reporter:120 - query times 8: p50 2345.0µs, p80 2345.0µs, p90 2345.0µs, p95 2345.0µs, p99 2345.0µs, p99.9 2345.0µs, p99.99 2345.0µs
+2018-04-20 12:36:28 DEBUG Reporter:120 - cache lookups 600: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:28 INFO  Reporter:92 - ADD Request for 400 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:28 INFO  Reporter:97 - Current total additions: 400 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:28 INFO  Reporter:99 - 400 total elements written
+2018-04-20 12:36:28 DEBUG ControlConnection:289 - [Control connection] Refreshing schema for medicine_latest_system.shared_data (TABLE)
+2018-04-20 12:36:28 INFO  DataLoaderImpl:210 - Scheduling [生产厂商] for reading
+2018-04-20 12:36:29 DEBUG Reporter:69 - Input queue [生产厂商] throughput is [11177.518019914165] items/s
+2018-04-20 12:36:29 DEBUG Reporter:70 - Input queue [生产厂商] has [2276] entries
+2018-04-20 12:36:29 DEBUG Reporter:75 - Promoted 2969 vertices to the persistent cache in 125ms avg put time: 0.04210171775008421ms
+2018-04-20 12:36:29 DEBUG Reporter:120 - query times 30: p50 35620.0µs, p80 35620.0µs, p90 35620.0µs, p95 35620.0µs, p99 35620.0µs, p99.9 35620.0µs, p99.99 35620.0µs
+2018-04-20 12:36:29 DEBUG Reporter:120 - cache lookups 2970: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:29 INFO  Reporter:92 - ADD Request for 2969 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:29 INFO  Reporter:97 - Current total additions: 3369 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:29 INFO  Reporter:99 - 3369 total elements written
+2018-04-20 12:36:30 INFO  DataLoaderImpl:210 - Scheduling [药品说明书] for reading
+2018-04-20 12:36:30 DEBUG Reporter:69 - Input queue [药品说明书] throughput is [32465.54747558326] items/s
+2018-04-20 12:36:30 DEBUG Reporter:70 - Input queue [药品说明书] has [750] entries
+2018-04-20 12:36:30 DEBUG Reporter:75 - Promoted 2476 vertices to the persistent cache in 78ms avg put time: 0.03150242326332795ms
+2018-04-20 12:36:30 DEBUG Reporter:120 - query times 26: p50 20541.0µs, p80 20541.0µs, p90 20541.0µs, p95 20541.0µs, p99 20541.0µs, p99.9 20541.0µs, p99.99 20541.0µs
+2018-04-20 12:36:30 DEBUG Reporter:120 - cache lookups 2476: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:30 INFO  Reporter:92 - ADD Request for 2476 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:30 INFO  Reporter:97 - Current total additions: 5845 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:30 INFO  Reporter:99 - 5845 total elements written
+2018-04-20 12:36:31 INFO  DataLoaderImpl:210 - Scheduling [相关文献节点] for reading
+2018-04-20 12:36:31 DEBUG Reporter:69 - Input queue [药品说明书] throughput is [1253.4749848845709] items/s
+2018-04-20 12:36:31 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [52555.96385865193] items/s
+2018-04-20 12:36:31 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:31 DEBUG Reporter:75 - Promoted 2600 vertices to the persistent cache in 72ms avg put time: 0.027692307692307693ms
+2018-04-20 12:36:31 DEBUG Reporter:120 - query times 26: p50 53232.0µs, p80 53232.0µs, p90 53232.0µs, p95 53232.0µs, p99 53232.0µs, p99.9 53232.0µs, p99.99 53232.0µs
+2018-04-20 12:36:31 DEBUG Reporter:120 - cache lookups 2600: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:31 INFO  Reporter:92 - ADD Request for 2600 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:31 INFO  Reporter:97 - Current total additions: 8445 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:31 INFO  Reporter:99 - 8445 total elements written
+2018-04-20 12:36:32 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [2792.8093565425193] items/s
+2018-04-20 12:36:32 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:32 DEBUG Reporter:75 - Promoted 2800 vertices to the persistent cache in 79ms avg put time: 0.028214285714285713ms
+2018-04-20 12:36:32 DEBUG Reporter:120 - query times 28: p50 54643.0µs, p80 54643.0µs, p90 54643.0µs, p95 54643.0µs, p99 54643.0µs, p99.9 54643.0µs, p99.99 54643.0µs
+2018-04-20 12:36:32 DEBUG Reporter:120 - cache lookups 2800: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:32 INFO  Reporter:92 - ADD Request for 2800 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:32 INFO  Reporter:97 - Current total additions: 11245 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:32 INFO  Reporter:99 - 11245 total elements written
+2018-04-20 12:36:33 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [2604.756266709718] items/s
+2018-04-20 12:36:33 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:33 DEBUG Reporter:75 - Promoted 2600 vertices to the persistent cache in 59ms avg put time: 0.022692307692307692ms
+2018-04-20 12:36:33 DEBUG Reporter:120 - query times 26: p50 53026.0µs, p80 53026.0µs, p90 53026.0µs, p95 53026.0µs, p99 53026.0µs, p99.9 53026.0µs, p99.99 53026.0µs
+2018-04-20 12:36:33 DEBUG Reporter:120 - cache lookups 2600: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:33 INFO  Reporter:92 - ADD Request for 2600 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:33 INFO  Reporter:97 - Current total additions: 13845 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:33 INFO  Reporter:99 - 13845 total elements written
+2018-04-20 12:36:34 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [2796.9125637375296] items/s
+2018-04-20 12:36:34 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:34 DEBUG Reporter:75 - Promoted 2800 vertices to the persistent cache in 63ms avg put time: 0.0225ms
+2018-04-20 12:36:34 DEBUG Reporter:120 - query times 28: p50 51769.0µs, p80 51769.0µs, p90 51769.0µs, p95 51769.0µs, p99 51769.0µs, p99.9 51769.0µs, p99.99 51769.0µs
+2018-04-20 12:36:34 DEBUG Reporter:120 - cache lookups 2800: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:34 INFO  Reporter:92 - ADD Request for 2800 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:34 INFO  Reporter:97 - Current total additions: 16645 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:34 INFO  Reporter:99 - 16645 total elements written
+2018-04-20 12:36:35 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [2805.865681848965] items/s
+2018-04-20 12:36:35 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:35 DEBUG Reporter:75 - Promoted 2800 vertices to the persistent cache in 64ms avg put time: 0.022857142857142857ms
+2018-04-20 12:36:35 DEBUG Reporter:120 - query times 28: p50 53250.0µs, p80 53250.0µs, p90 53250.0µs, p95 53250.0µs, p99 53250.0µs, p99.9 53250.0µs, p99.99 53250.0µs
+2018-04-20 12:36:35 DEBUG Reporter:120 - cache lookups 2800: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:35 INFO  Reporter:92 - ADD Request for 2800 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:35 INFO  Reporter:97 - Current total additions: 19445 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:35 INFO  Reporter:99 - 19445 total elements written
+2018-04-20 12:36:36 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [2693.150738644219] items/s
+2018-04-20 12:36:36 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:36 DEBUG Reporter:75 - Promoted 2700 vertices to the persistent cache in 87ms avg put time: 0.03222222222222222ms
+2018-04-20 12:36:36 DEBUG Reporter:120 - query times 28: p50 57830.0µs, p80 57830.0µs, p90 57830.0µs, p95 57830.0µs, p99 57830.0µs, p99.9 57830.0µs, p99.99 57830.0µs
+2018-04-20 12:36:36 DEBUG Reporter:120 - cache lookups 2700: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:36 INFO  Reporter:92 - ADD Request for 2700 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:36 INFO  Reporter:97 - Current total additions: 22145 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:36 INFO  Reporter:99 - 22245 total elements written
+2018-04-20 12:36:37 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [2606.7095530877177] items/s
+2018-04-20 12:36:37 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:37 DEBUG Reporter:75 - Promoted 2600 vertices to the persistent cache in 107ms avg put time: 0.04115384615384615ms
+2018-04-20 12:36:37 DEBUG Reporter:120 - query times 25: p50 55377.0µs, p80 55377.0µs, p90 55377.0µs, p95 55377.0µs, p99 55377.0µs, p99.9 55377.0µs, p99.99 55377.0µs
+2018-04-20 12:36:37 DEBUG Reporter:120 - cache lookups 2600: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:37 INFO  Reporter:92 - ADD Request for 2600 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:37 INFO  Reporter:97 - Current total additions: 24745 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:37 INFO  Reporter:99 - 24745 total elements written
+2018-04-20 12:36:38 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [2893.297052425892] items/s
+2018-04-20 12:36:38 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:38 DEBUG Reporter:75 - Promoted 2900 vertices to the persistent cache in 119ms avg put time: 0.04103448275862069ms
+2018-04-20 12:36:38 DEBUG Reporter:120 - query times 29: p50 51744.0µs, p80 51744.0µs, p90 51744.0µs, p95 51744.0µs, p99 51744.0µs, p99.9 51744.0µs, p99.99 51744.0µs
+2018-04-20 12:36:38 DEBUG Reporter:120 - cache lookups 2900: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:38 INFO  Reporter:92 - ADD Request for 2900 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:38 INFO  Reporter:97 - Current total additions: 27645 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:38 INFO  Reporter:99 - 27745 total elements written
+2018-04-20 12:36:39 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [3023.7621250596644] items/s
+2018-04-20 12:36:39 DEBUG Reporter:70 - Input queue [相关文献节点] has [9991] entries
+2018-04-20 12:36:39 DEBUG Reporter:75 - Promoted 3100 vertices to the persistent cache in 118ms avg put time: 0.03806451612903226ms
+2018-04-20 12:36:39 DEBUG Reporter:120 - query times 31: p50 48675.0µs, p80 48675.0µs, p90 48675.0µs, p95 48675.0µs, p99 48675.0µs, p99.9 48675.0µs, p99.99 48675.0µs
+2018-04-20 12:36:39 DEBUG Reporter:120 - cache lookups 3045: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:39 INFO  Reporter:92 - ADD Request for 3100 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:39 INFO  Reporter:97 - Current total additions: 30745 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:39 INFO  Reporter:99 - 30745 total elements written
+2018-04-20 12:36:40 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [3080.56012194872] items/s
+2018-04-20 12:36:40 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:40 DEBUG Reporter:75 - Promoted 3000 vertices to the persistent cache in 83ms avg put time: 0.027666666666666666ms
+2018-04-20 12:36:40 DEBUG Reporter:120 - query times 30: p50 52869.0µs, p80 52869.0µs, p90 52869.0µs, p95 52869.0µs, p99 52869.0µs, p99.9 52869.0µs, p99.99 52869.0µs
+2018-04-20 12:36:40 DEBUG Reporter:120 - cache lookups 3055: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:40 INFO  Reporter:92 - ADD Request for 3000 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:40 INFO  Reporter:97 - Current total additions: 33745 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:40 INFO  Reporter:99 - 33745 total elements written
+2018-04-20 12:36:41 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [2295.604612734811] items/s
+2018-04-20 12:36:41 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:41 DEBUG Reporter:75 - Promoted 2300 vertices to the persistent cache in 57ms avg put time: 0.024782608695652172ms
+2018-04-20 12:36:41 DEBUG Reporter:120 - query times 23: p50 49100.0µs, p80 49100.0µs, p90 49100.0µs, p95 49100.0µs, p99 49100.0µs, p99.9 49100.0µs, p99.99 49100.0µs
+2018-04-20 12:36:41 DEBUG Reporter:120 - cache lookups 2300: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:41 INFO  Reporter:92 - ADD Request for 2300 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:41 INFO  Reporter:97 - Current total additions: 36045 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:41 INFO  Reporter:99 - 36045 total elements written
+2018-04-20 12:36:42 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [3209.0215962209527] items/s
+2018-04-20 12:36:42 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:42 DEBUG Reporter:75 - Promoted 3200 vertices to the persistent cache in 67ms avg put time: 0.0209375ms
+2018-04-20 12:36:42 DEBUG Reporter:120 - query times 32: p50 48699.0µs, p80 48699.0µs, p90 48699.0µs, p95 48699.0µs, p99 48699.0µs, p99.9 48699.0µs, p99.99 48699.0µs
+2018-04-20 12:36:42 DEBUG Reporter:120 - cache lookups 3200: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:42 INFO  Reporter:92 - ADD Request for 3200 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:42 INFO  Reporter:97 - Current total additions: 39245 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:42 INFO  Reporter:99 - 39245 total elements written
+2018-04-20 12:36:43 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [1297.0829127520353] items/s
+2018-04-20 12:36:43 DEBUG Reporter:70 - Input queue [相关文献节点] has [8099] entries
+2018-04-20 12:36:43 DEBUG Reporter:75 - Promoted 3200 vertices to the persistent cache in 66ms avg put time: 0.020625ms
+2018-04-20 12:36:43 DEBUG Reporter:120 - query times 32: p50 48327.0µs, p80 48327.0µs, p90 48327.0µs, p95 48327.0µs, p99 48327.0µs, p99.9 48327.0µs, p99.99 48327.0µs
+2018-04-20 12:36:43 DEBUG Reporter:120 - cache lookups 3200: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:43 INFO  Reporter:92 - ADD Request for 3200 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:43 INFO  Reporter:97 - Current total additions: 42445 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:43 INFO  Reporter:99 - 42445 total elements written
+2018-04-20 12:36:44 DEBUG Reporter:70 - Input queue [相关文献节点] has [5799] entries
+2018-04-20 12:36:44 DEBUG Reporter:75 - Promoted 2300 vertices to the persistent cache in 36ms avg put time: 0.01565217391304348ms
+2018-04-20 12:36:44 DEBUG Reporter:120 - query times 23: p50 51198.0µs, p80 51198.0µs, p90 51198.0µs, p95 51198.0µs, p99 51198.0µs, p99.9 51198.0µs, p99.99 51198.0µs
+2018-04-20 12:36:44 DEBUG Reporter:120 - cache lookups 2300: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:44 INFO  Reporter:92 - ADD Request for 2300 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:44 INFO  Reporter:97 - Current total additions: 44745 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:44 INFO  Reporter:99 - 44745 total elements written
+2018-04-20 12:36:45 DEBUG Reporter:70 - Input queue [相关文献节点] has [2499] entries
+2018-04-20 12:36:45 DEBUG Reporter:75 - Promoted 3300 vertices to the persistent cache in 58ms avg put time: 0.017575757575757574ms
+2018-04-20 12:36:45 DEBUG Reporter:120 - query times 33: p50 49761.0µs, p80 49761.0µs, p90 49761.0µs, p95 49761.0µs, p99 49761.0µs, p99.9 49761.0µs, p99.99 49761.0µs
+2018-04-20 12:36:45 DEBUG Reporter:120 - cache lookups 3300: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:45 INFO  Reporter:92 - ADD Request for 3300 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:45 INFO  Reporter:97 - Current total additions: 48045 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:45 INFO  Reporter:99 - 48045 total elements written
+2018-04-20 12:36:46 INFO  DataLoaderImpl:210 - Scheduling [药物_成份] for reading
+2018-04-20 12:36:46 DEBUG Reporter:69 - Input queue [药物_成份] throughput is [58337.3336822193] items/s
+2018-04-20 12:36:46 DEBUG Reporter:70 - Input queue [药物_成份] has [8775] entries
+2018-04-20 12:36:46 DEBUG Reporter:75 - Promoted 3110 vertices to the persistent cache in 44ms avg put time: 0.01414790996784566ms
+2018-04-20 12:36:46 DEBUG Reporter:120 - query times 49: p50 4606.0µs, p80 4606.0µs, p90 4606.0µs, p95 4606.0µs, p99 4606.0µs, p99.9 4606.0µs, p99.99 4606.0µs
+2018-04-20 12:36:46 DEBUG Reporter:120 - cache lookups 7299: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:46 INFO  Reporter:92 - ADD Request for 3110 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:46 INFO  Reporter:97 - Current total additions: 51155 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:46 INFO  Reporter:99 - 51155 total elements written
+2018-04-20 12:36:46 INFO  DataLoaderImpl:210 - Scheduling [药物_疾病] for reading
+2018-04-20 12:36:47 DEBUG Reporter:69 - Input queue [药物_疾病] throughput is [32288.406535856444] items/s
+2018-04-20 12:36:47 DEBUG Reporter:70 - Input queue [药物_疾病] has [10000] entries
+2018-04-20 12:36:47 DEBUG Reporter:75 - Promoted 3004 vertices to the persistent cache in 38ms avg put time: 0.012649800266311585ms
+2018-04-20 12:36:47 DEBUG Reporter:120 - query times 107: p50 2760.0µs, p80 2760.0µs, p90 2760.0µs, p95 2762.418µs, p99 2766.4356µs, p99.9 2767.33956µs, p99.99 2767.429956µs
+2018-04-20 12:36:47 DEBUG Reporter:120 - cache lookups 22550: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:47 INFO  Reporter:92 - ADD Request for 3004 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:47 INFO  Reporter:97 - Current total additions: 54159 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:47 INFO  Reporter:99 - 54159 total elements written
+2018-04-20 12:36:48 DEBUG Reporter:69 - Input queue [药物_疾病] throughput is [9613.860908945664] items/s
+2018-04-20 12:36:48 DEBUG Reporter:70 - Input queue [药物_疾病] has [10000] entries
+2018-04-20 12:36:48 DEBUG Reporter:75 - Promoted 2961 vertices to the persistent cache in 92ms avg put time: 0.031070584262073625ms
+2018-04-20 12:36:48 DEBUG Reporter:120 - query times 96: p50 4219.0µs, p80 4219.0µs, p90 4219.0µs, p95 4219.0µs, p99 4219.0µs, p99.9 4219.0µs, p99.99 4219.0µs
+2018-04-20 12:36:48 DEBUG Reporter:120 - cache lookups 19200: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:48 INFO  Reporter:92 - ADD Request for 2961 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:48 INFO  Reporter:97 - Current total additions: 57120 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:48 INFO  Reporter:99 - 57120 total elements written
+2018-04-20 12:36:49 DEBUG Reporter:69 - Input queue [药物_疾病] throughput is [9166.542354707966] items/s
+2018-04-20 12:36:49 DEBUG Reporter:70 - Input queue [药物_疾病] has [7586] entries
+2018-04-20 12:36:49 DEBUG Reporter:75 - Promoted 2990 vertices to the persistent cache in 65ms avg put time: 0.021739130434782608ms
+2018-04-20 12:36:49 DEBUG Reporter:120 - query times 116: p50 4799.0µs, p80 4799.0µs, p90 4862.282µs, p95 4932.131µs, p99 4988.0102µs, p99.9 5000.58302µs, p99.99 5001.840302µs
+2018-04-20 12:36:49 DEBUG Reporter:120 - cache lookups 23200: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:49 INFO  Reporter:92 - ADD Request for 2990 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:49 INFO  Reporter:97 - Current total additions: 60110 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:49 INFO  Reporter:99 - 60110 total elements written
+2018-04-20 12:36:49 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 12:36:50 DEBUG Reporter:69 - Input queue [禁忌] throughput is [14752.854242227886] items/s
+2018-04-20 12:36:50 DEBUG Reporter:70 - Input queue [禁忌] has [904] entries
+2018-04-20 12:36:50 DEBUG Reporter:75 - Promoted 3056 vertices to the persistent cache in 15ms avg put time: 0.004908376963350785ms
+2018-04-20 12:36:50 DEBUG Reporter:120 - query times 137: p50 4446.0µs, p80 4447.56µs, p90 4449.63µs, p95 4450.665µs, p99 4451.493µs, p99.9 4451.6793µs, p99.99 4451.69793µs
+2018-04-20 12:36:50 DEBUG Reporter:120 - cache lookups 27572: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:50 INFO  Reporter:92 - ADD Request for 3056 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:50 INFO  Reporter:97 - Current total additions: 63166 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:50 INFO  Reporter:99 - 63188 total elements written
+2018-04-20 12:36:50 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 12:36:50 INFO  DataLoaderImpl:210 - Scheduling [批准文号] for reading
+2018-04-20 12:36:50 INFO  DataLoaderImpl:210 - Scheduling [药物_说明书] for reading
+2018-04-20 12:36:50 INFO  DataLoaderImpl:210 - Scheduling [药物_相关文献] for reading
+2018-04-20 12:36:51 DEBUG Reporter:69 - Input queue [药物_说明书] throughput is [3134.901014873475] items/s
+2018-04-20 12:36:51 DEBUG Reporter:69 - Input queue [药物_相关文献] throughput is [40223.179060438866] items/s
+2018-04-20 12:36:51 DEBUG Reporter:70 - Input queue [药物_相关文献] has [10000] entries
+2018-04-20 12:36:51 DEBUG Reporter:69 - Input queue [禁忌] throughput is [7586.244312979799] items/s
+2018-04-20 12:36:51 DEBUG Reporter:69 - Input queue [批准文号] throughput is [62199.18692928906] items/s
+2018-04-20 12:36:51 DEBUG Reporter:75 - Promoted 1174 vertices to the persistent cache in 0ms avg put time: 0.0ms
+2018-04-20 12:36:51 DEBUG Reporter:120 - query times 182: p50 2533.0µs, p80 2649.928µs, p90 2696.044µs, p95 2719.102µs, p99 2737.5484µs, p99.9 2741.69884µs, p99.99 2742.113884µs
+2018-04-20 12:36:51 DEBUG Reporter:120 - cache lookups 169452: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:51 INFO  Reporter:92 - ADD Request for 1174 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:51 INFO  Reporter:97 - Current total additions: 64340 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:51 INFO  Reporter:99 - 64354 total elements written
+2018-04-20 12:36:52 DEBUG Reporter:69 - Input queue [药物_相关文献] throughput is [15433.912374089283] items/s
+2018-04-20 12:36:52 DEBUG Reporter:75 - Promoted 1753 vertices to the persistent cache in 2ms avg put time: 0.0011409013120365088ms
+2018-04-20 12:36:52 DEBUG Reporter:120 - query times 254: p50 2741.425µs, p80 2910.44µs, p90 2938.745µs, p95 2952.8975µs, p99 2964.2195µs, p99.9 2966.76695µs, p99.99 2967.021695µs
+2018-04-20 12:36:52 DEBUG Reporter:120 - cache lookups 50798: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:52 INFO  Reporter:92 - ADD Request for 1753 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:52 INFO  DataLoaderImpl:394 - Looking for relations in the following loads [药物节点, 生产厂商, 药品说明书, 相关文献节点, 药物_成份, 药物_疾病, 禁忌, 禁忌, 批准文号, 药物_说明书, 药物_相关文献]
+2018-04-20 12:36:52 INFO  Reporter:97 - Current total additions: 66093 vertices 0 edges 0 properties 0 anonymous
+2018-04-20 12:36:52 INFO  Reporter:99 - 66098 total elements written
+2018-04-20 12:36:52 INFO  DataLoaderImpl:239 - Initializing tasks with [1] read threads and [6] loader threads
+2018-04-20 12:36:52 INFO  DataLoaderImpl:240 - Initializing tasks with [6] edge loading threads and [2] vertex loading threads
+2018-04-20 12:36:52 INFO  DataLoaderImpl:210 - Scheduling [药物节点] for reading
+2018-04-20 12:36:53 INFO  DataLoaderImpl:210 - Scheduling [生产厂商] for reading
+2018-04-20 12:36:53 INFO  DataLoaderImpl:210 - Scheduling [药品说明书] for reading
+2018-04-20 12:36:53 DEBUG Reporter:69 - Input queue [生产厂商] throughput is [34827.812191000114] items/s
+2018-04-20 12:36:53 DEBUG Reporter:69 - Input queue [药物节点] throughput is [2774.107812851929] items/s
+2018-04-20 12:36:53 DEBUG Reporter:69 - Input queue [药品说明书] throughput is [21092.434100413084] items/s
+2018-04-20 12:36:53 DEBUG Reporter:70 - Input queue [药品说明书] has [904] entries
+2018-04-20 12:36:53 DEBUG Reporter:75 - Promoted 5 vertices to the persistent cache in 0ms avg put time: 0.0ms
+2018-04-20 12:36:53 DEBUG Reporter:120 - query times 29: p50 6622.0µs, p80 6622.0µs, p90 6622.0µs, p95 6622.0µs, p99 6622.0µs, p99.9 6622.0µs, p99.99 6622.0µs
+2018-04-20 12:36:53 DEBUG Reporter:120 - cache lookups 6446: p50 1.0µs, p80 1.0µs, p90 1.0µs, p95 1.0µs, p99 1.0µs, p99.9 1.0µs, p99.99 1.0µs
+2018-04-20 12:36:53 INFO  Reporter:92 - ADD Request for 5 vertices 0 edges 2770 properties 0 anonymous
+2018-04-20 12:36:53 INFO  Reporter:97 - Current total additions: 66098 vertices 0 edges 2770 properties 0 anonymous
+2018-04-20 12:36:53 INFO  Reporter:99 - 68868 total elements written
+2018-04-20 12:36:53 INFO  DataLoaderImpl:210 - Scheduling [相关文献节点] for reading
+2018-04-20 12:36:54 DEBUG Reporter:69 - Input queue [药品说明书] throughput is [696.2375437176406] items/s
+2018-04-20 12:36:54 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [39487.37808585465] items/s
+2018-04-20 12:36:54 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:54 DEBUG Reporter:120 - query times 53: p50 17574.0µs, p80 17574.0µs, p90 17574.0µs, p95 17574.0µs, p99 17574.0µs, p99.9 17574.0µs, p99.99 17574.0µs
+2018-04-20 12:36:54 DEBUG Reporter:120 - cache lookups 5300: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:54 INFO  Reporter:92 - ADD Request for 0 vertices 0 edges 51312 properties 0 anonymous
+2018-04-20 12:36:54 INFO  Reporter:97 - Current total additions: 66098 vertices 0 edges 54082 properties 0 anonymous
+2018-04-20 12:36:54 INFO  Reporter:99 - 120180 total elements written
+2018-04-20 12:36:55 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [11605.175838793046] items/s
+2018-04-20 12:36:55 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:55 DEBUG Reporter:120 - query times 117: p50 20729.0µs, p80 20729.0µs, p90 20826.898µs, p95 20920.059µs, p99 20994.5878µs, p99.9 21011.35678µs, p99.99 21013.033678µs
+2018-04-20 12:36:55 DEBUG Reporter:120 - cache lookups 11621: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:55 INFO  Reporter:92 - ADD Request for 0 vertices 0 edges 57727 properties 0 anonymous
+2018-04-20 12:36:55 INFO  Reporter:97 - Current total additions: 66098 vertices 0 edges 111809 properties 0 anonymous
+2018-04-20 12:36:55 INFO  Reporter:99 - 178406 total elements written
+2018-04-20 12:36:56 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [8614.945517622009] items/s
+2018-04-20 12:36:56 DEBUG Reporter:70 - Input queue [相关文献节点] has [10000] entries
+2018-04-20 12:36:56 DEBUG Reporter:120 - query times 85: p50 20336.0µs, p80 20336.0µs, p90 20336.0µs, p95 20336.0µs, p99 20336.0µs, p99.9 20336.0µs, p99.99 20336.0µs
+2018-04-20 12:36:56 DEBUG Reporter:120 - cache lookups 8579: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:56 INFO  Reporter:92 - ADD Request for 0 vertices 0 edges 42672 properties 0 anonymous
+2018-04-20 12:36:56 INFO  Reporter:97 - Current total additions: 66098 vertices 0 edges 154481 properties 0 anonymous
+2018-04-20 12:36:56 INFO  Reporter:99 - 220579 total elements written
+2018-04-20 12:36:57 DEBUG Reporter:69 - Input queue [相关文献节点] throughput is [8796.68306803676] items/s
+2018-04-20 12:36:57 DEBUG Reporter:70 - Input queue [相关文献节点] has [6599] entries
+2018-04-20 12:36:57 DEBUG Reporter:120 - query times 122: p50 21547.0µs, p80 21547.0µs, p90 21948.25µs, p95 22178.875µs, p99 22363.375µs, p99.9 22404.8875µs, p99.99 22409.03875µs
+2018-04-20 12:36:57 DEBUG Reporter:120 - cache lookups 12200: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:57 INFO  Reporter:92 - ADD Request for 0 vertices 0 edges 60761 properties 0 anonymous
+2018-04-20 12:36:57 INFO  Reporter:97 - Current total additions: 66098 vertices 0 edges 215242 properties 0 anonymous
+2018-04-20 12:36:57 INFO  Reporter:99 - 281340 total elements written
+2018-04-20 12:36:57 INFO  DataLoaderImpl:210 - Scheduling [药物_成份] for reading
+2018-04-20 12:36:58 DEBUG Reporter:69 - Input queue [药物_成份] throughput is [27898.950694625077] items/s
+2018-04-20 12:36:58 DEBUG Reporter:70 - Input queue [药物_成份] has [5375] entries
+2018-04-20 12:36:58 DEBUG Reporter:120 - query times 125: p50 21922.0µs, p80 21926.856µs, p90 22003.338µs, p95 22041.579µs, p99 22072.1718µs, p99.9 22079.05518µs, p99.99 22079.743518µs
+2018-04-20 12:36:58 DEBUG Reporter:120 - cache lookups 18281: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:58 INFO  Reporter:92 - ADD Request for 0 vertices 5200 edges 35839 properties 0 anonymous
+2018-04-20 12:36:58 INFO  Reporter:97 - Current total additions: 66098 vertices 5200 edges 251081 properties 0 anonymous
+2018-04-20 12:36:58 INFO  Reporter:99 - 322479 total elements written
+2018-04-20 12:36:58 DEBUG Connection:1086 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] was inactive for 30 seconds, sending heartbeat
+2018-04-20 12:36:58 DEBUG Connection:1177 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=false] heartbeat query succeeded
+2018-04-20 12:36:58 INFO  DataLoaderImpl:210 - Scheduling [药物_疾病] for reading
+2018-04-20 12:36:59 DEBUG Reporter:69 - Input queue [药物_疾病] throughput is [38057.91703440479] items/s
+2018-04-20 12:36:59 DEBUG Reporter:70 - Input queue [药物_疾病] has [10000] entries
+2018-04-20 12:36:59 DEBUG Reporter:120 - query times 180: p50 21283.0µs, p80 21291.064µs, p90 21294.322µs, p95 21295.951µs, p99 21297.2542µs, p99.9 21297.54742µs, p99.99 21297.576742µs
+2018-04-20 12:36:59 DEBUG Reporter:120 - cache lookups 36068: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:36:59 INFO  Reporter:92 - ADD Request for 0 vertices 18075 edges 0 properties 0 anonymous
+2018-04-20 12:36:59 INFO  Reporter:97 - Current total additions: 66098 vertices 23275 edges 251081 properties 0 anonymous
+2018-04-20 12:36:59 INFO  Reporter:99 - 340454 total elements written
+2018-04-20 12:37:00 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 12:37:00 DEBUG Reporter:69 - Input queue [禁忌] throughput is [67350.13719888484] items/s
+2018-04-20 12:37:00 DEBUG Reporter:70 - Input queue [禁忌] has [5204] entries
+2018-04-20 12:37:00 DEBUG Reporter:69 - Input queue [药物_疾病] throughput is [8583.252329264356] items/s
+2018-04-20 12:37:00 DEBUG Reporter:120 - query times 206: p50 10258.545µs, p80 14970.072µs, p90 16540.581000000002µs, p95 17325.835499999997µs, p99 17726.421000000002µs, p99.9 17781.7521µs, p99.99 17787.28521µs
+2018-04-20 12:37:00 DEBUG Reporter:120 - cache lookups 40972: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:37:00 INFO  Reporter:92 - ADD Request for 0 vertices 20486 edges 0 properties 0 anonymous
+2018-04-20 12:37:00 INFO  Reporter:97 - Current total additions: 66098 vertices 43761 edges 251081 properties 0 anonymous
+2018-04-20 12:37:00 INFO  Reporter:99 - 360940 total elements written
+2018-04-20 12:37:00 INFO  DataLoaderImpl:210 - Scheduling [禁忌] for reading
+2018-04-20 12:37:01 DEBUG Reporter:69 - Input queue [禁忌] throughput is [10175.025448162605] items/s
+2018-04-20 12:37:01 DEBUG Reporter:120 - query times 126: p50 12930.0µs, p80 13048.432µs, p90 13988.486µs, p95 14458.512999999999µs, p99 14834.5346µs, p99.9 14919.13946µs, p99.99 14927.599946µs
+2018-04-20 12:37:01 DEBUG Reporter:120 - cache lookups 24616: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:37:01 INFO  Reporter:92 - ADD Request for 0 vertices 12504 edges 0 properties 0 anonymous
+2018-04-20 12:37:01 INFO  Reporter:97 - Current total additions: 66098 vertices 56265 edges 251081 properties 0 anonymous
+2018-04-20 12:37:01 INFO  Reporter:99 - 373444 total elements written
+2018-04-20 12:37:01 INFO  DataLoaderImpl:210 - Scheduling [批准文号] for reading
+2018-04-20 12:37:02 DEBUG Reporter:69 - Input queue [批准文号] throughput is [24459.194365619496] items/s
+2018-04-20 12:37:02 DEBUG Reporter:70 - Input queue [批准文号] has [10000] entries
+2018-04-20 12:37:02 DEBUG Reporter:120 - query times 107: p50 38174.0µs, p80 38174.0µs, p90 38174.0µs, p95 38188.846µs, p99 38213.5132µs, p99.9 38219.06332µs, p99.99 38219.618332µs
+2018-04-20 12:37:02 DEBUG Reporter:120 - cache lookups 21600: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:37:02 INFO  Reporter:92 - ADD Request for 0 vertices 10604 edges 0 properties 0 anonymous
+2018-04-20 12:37:02 INFO  Reporter:97 - Current total additions: 66098 vertices 66869 edges 251081 properties 0 anonymous
+2018-04-20 12:37:02 INFO  Reporter:99 - 384048 total elements written
+2018-04-20 12:37:03 DEBUG Reporter:69 - Input queue [批准文号] throughput is [11712.427318745] items/s
+2018-04-20 12:37:03 DEBUG Reporter:70 - Input queue [批准文号] has [10000] entries
+2018-04-20 12:37:03 DEBUG Reporter:120 - query times 117: p50 36072.0µs, p80 36072.0µs, p90 36193.892µs, p95 36309.886µs, p99 36402.6812µs, p99.9 36423.56012µs, p99.99 36425.648012µs
+2018-04-20 12:37:03 DEBUG Reporter:120 - cache lookups 23400: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:37:03 INFO  Reporter:92 - ADD Request for 0 vertices 11700 edges 0 properties 0 anonymous
+2018-04-20 12:37:03 INFO  Reporter:97 - Current total additions: 66098 vertices 78569 edges 251081 properties 0 anonymous
+2018-04-20 12:37:03 INFO  Reporter:99 - 395748 total elements written
+2018-04-20 12:37:04 DEBUG Reporter:69 - Input queue [批准文号] throughput is [13572.329426953129] items/s
+2018-04-20 12:37:04 DEBUG Reporter:70 - Input queue [批准文号] has [10000] entries
+2018-04-20 12:37:04 DEBUG Reporter:120 - query times 136: p50 37234.0µs, p80 37327.984µs, p90 37462.106999999996µs, p95 37529.1685µs, p99 37582.8177µs, p99.9 37594.88877µs, p99.99 37596.095877µs
+2018-04-20 12:37:04 DEBUG Reporter:120 - cache lookups 27200: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:37:04 INFO  Reporter:92 - ADD Request for 0 vertices 13600 edges 0 properties 0 anonymous
+2018-04-20 12:37:04 INFO  Reporter:97 - Current total additions: 66098 vertices 92169 edges 251081 properties 0 anonymous
+2018-04-20 12:37:04 INFO  Reporter:99 - 409348 total elements written
+2018-04-20 12:37:05 DEBUG Reporter:69 - Input queue [批准文号] throughput is [11125.315462307555] items/s
+2018-04-20 12:37:05 DEBUG Reporter:70 - Input queue [批准文号] has [9718] entries
+2018-04-20 12:37:05 DEBUG Reporter:120 - query times 114: p50 37157.0µs, p80 37157.0µs, p90 37181.5µs, p95 37221.75µs, p99 37253.95µs, p99.9 37261.195µs, p99.99 37261.9195µs
+2018-04-20 12:37:05 DEBUG Reporter:120 - cache lookups 22800: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:37:05 INFO  Reporter:92 - ADD Request for 0 vertices 11400 edges 0 properties 0 anonymous
+2018-04-20 12:37:05 INFO  Reporter:97 - Current total additions: 66098 vertices 103569 edges 251081 properties 0 anonymous
+2018-04-20 12:37:05 INFO  Reporter:99 - 420748 total elements written
+2018-04-20 12:37:06 INFO  DataLoaderImpl:210 - Scheduling [药物_说明书] for reading
+2018-04-20 12:37:06 DEBUG Reporter:69 - Input queue [药物_说明书] throughput is [15684.163829532132] items/s
+2018-04-20 12:37:06 DEBUG Reporter:120 - query times 122: p50 33745.0µs, p80 33745.0µs, p90 33801.282µs, p95 33833.631µs, p99 33859.5102µs, p99.9 33865.33302µs, p99.99 33865.915302µs
+2018-04-20 12:37:06 DEBUG Reporter:120 - cache lookups 23836: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:37:06 INFO  Reporter:92 - ADD Request for 0 vertices 12118 edges 0 properties 0 anonymous
+2018-04-20 12:37:06 INFO  Reporter:97 - Current total additions: 66098 vertices 115687 edges 251081 properties 0 anonymous
+2018-04-20 12:37:06 INFO  Reporter:99 - 432866 total elements written
+2018-04-20 12:37:06 INFO  DataLoaderImpl:210 - Scheduling [药物_相关文献] for reading
+2018-04-20 12:37:07 DEBUG Reporter:69 - Input queue [药物_相关文献] throughput is [31798.743088004663] items/s
+2018-04-20 12:37:07 DEBUG Reporter:70 - Input queue [药物_相关文献] has [10000] entries
+2018-04-20 12:37:07 DEBUG Reporter:120 - query times 208: p50 20050.795µs, p80 20270.872µs, p90 20344.231µs, p95 20380.910499999998µs, p99 20389.6623µs, p99.9 20390.65923µs, p99.99 20390.758923µs
+2018-04-20 12:37:07 DEBUG Reporter:120 - cache lookups 42000: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:37:07 INFO  Reporter:92 - ADD Request for 0 vertices 20800 edges 0 properties 0 anonymous
+2018-04-20 12:37:07 INFO  Reporter:97 - Current total additions: 66098 vertices 136487 edges 251081 properties 0 anonymous
+2018-04-20 12:37:07 INFO  Reporter:99 - 453766 total elements written
+2018-04-20 12:37:08 DEBUG Cluster:1654 - Shutting down
+2018-04-20 12:37:08 DEBUG Connection:684 - Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closing connection
+2018-04-20 12:37:08 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-1, inFlight=0, closed=true] closed, remaining = 1
+2018-04-20 12:37:08 DEBUG Connection:684 - Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closing connection
+2018-04-20 12:37:08 DEBUG STATES:87 - [/192.168.2.4:9042] Connection[/192.168.2.4:9042-2, inFlight=0, closed=true] closed, remaining = 0
+2018-04-20 12:37:08 DEBUG Reporter:69 - Input queue [药物_相关文献] throughput is [11697.13546490976] items/s
+2018-04-20 12:37:08 DEBUG Reporter:120 - query times 223: p50 20076.88µs, p80 20126.608µs, p90 20150.832µs, p95 20212.656µs, p99 20262.1152µs, p99.9 20273.24352µs, p99.99 20274.356352µs
+2018-04-20 12:37:08 DEBUG Reporter:120 - cache lookups 43398: p50 0.0µs, p80 0.0µs, p90 0.0µs, p95 0.0µs, p99 0.0µs, p99.9 0.0µs, p99.99 0.0µs
+2018-04-20 12:37:08 INFO  Reporter:92 - ADD Request for 0 vertices 22299 edges 0 properties 0 anonymous
+2018-04-20 12:37:08 INFO  Reporter:97 - Current total additions: 66098 vertices 158786 edges 251081 properties 0 anonymous
+2018-04-20 12:37:08 INFO  Reporter:99 - 475965 total elements written
+2018-04-20 12:37:10 DEBUG PoolThreadCache:81 - Freed 36 thread-local buffer(s) from thread: cluster2-nio-worker-2
+2018-04-20 12:37:10 DEBUG PoolThreadCache:81 - Freed 32 thread-local buffer(s) from thread: cluster2-nio-worker-0
